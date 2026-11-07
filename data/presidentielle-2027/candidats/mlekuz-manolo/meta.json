@@ -1,0 +1,44 @@
+{
+  "slug": "mlekuz-manolo",
+  "nom": "Manolo Mlekuz",
+  "mouvement": "Trajectoire",
+  "site_officiel": "https://trajectoire2027.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://trajectoire2027.fr/equipe",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Programme",
+      "source_url": "https://trajectoire2027.fr/programme",
+      "pages_sources": [
+        {
+          "url": "https://trajectoire2027.fr/programme",
+          "titre": "Programme — Trajectoire",
+          "html_sha256": "09e6469c07b73388b6c1da0692c74f77cf63baafd0ccb88d3f18252af69e8cfb",
+          "capture_date": "2026-11-07T21:42:00Z"
+        }
+      ],
+      "capture_date": "2026-11-07T21:42:51Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : texte relevé dans le navigateur, empreinte SHA-256 du HTML de chaque page conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "fdac33fb04670cc3e4075b420be931ad88c5d3a89c1b8c4f1506fb0179d252fc",
+      "pages": 1,
+      "mots": 598,
+      "extraction": "innerText via navigateur intégré",
+      "extraction_note": "cinq premières sections de <main#contenu> (en-tête, introduction, calendrier, conclusion, note) ; exclue : section « À télécharger » (bouton de téléchargement du PDF et crédits des auteurs du livre blanc)",
+      "remplace": null
+    }
+  ],
+  "documents_exclus": [
+    {
+      "url": "https://trajectoire2027.fr/docs/programme-detaille-trajectoire.pdf",
+      "titre": "Le programme détaillé",
+      "motif": "Hors périmètre : le site indique qu'il s'agit du livre blanc « Nouvelle démocratie. Chemin pour changer les règles du jeu politique dès 2027 », produit par l'ONG Démocratie Ouverte et publié avec l'accord de ses auteurs ; document d'un tiers, non rédigé par le candidat."
+    }
+  ]
+}

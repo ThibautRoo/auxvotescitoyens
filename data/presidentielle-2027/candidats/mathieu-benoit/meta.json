@@ -1,0 +1,37 @@
+{
+  "slug": "mathieu-benoit",
+  "nom": "Benoît Mathieu",
+  "mouvement": null,
+  "site_officiel": "https://benoitmathieu2027.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://benoitmathieu2027.fr/le-candidat",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Programme 2027",
+      "source_url": "https://benoitmathieu2027.fr/programme",
+      "pages_sources": [
+        {
+          "url": "https://benoitmathieu2027.fr/programme",
+          "titre": "Programme 2027 — tirage au sort, RIC, nouvelle Constitution · Cap 500 signatures",
+          "html_sha256": "cb4fc3d8a7b36377961cdef489400b6eeeee6afb117477a8fa58af8f18087fb4",
+          "capture_date": "2026-11-07T21:40:30Z"
+        }
+      ],
+      "capture_date": "2026-11-07T21:41:41Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : texte relevé dans le navigateur, empreinte SHA-256 du HTML de chaque page conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "3a42e8c204cb2adfb0fb107376d3a37a61c2c4285c10606185eb043640fdbd83",
+      "pages": 1,
+      "mots": 678,
+      "extraction": "innerText via navigateur intégré",
+      "extraction_note": "trois premières sections de <main> (introduction, Légitimité, Concrètement) ; exclu : bloc d'appel à contact « Une question, une remarque sur ces chantiers ? / Me contacter ». Le site indique que le candidat ne présente volontairement aucun programme socio-économique ; le texte de l'article RIC annoncé n'est pas encore publié",
+      "remplace": null
+    }
+  ]
+}

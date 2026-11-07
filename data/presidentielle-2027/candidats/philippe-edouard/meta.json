@@ -1,0 +1,55 @@
+{
+  "slug": "philippe-edouard",
+  "nom": "Édouard Philippe",
+  "mouvement": null,
+  "site_officiel": "https://www.edouardphilippe.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://www.edouardphilippe.fr/",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Les priorités d'Édouard Philippe",
+      "source_url": "https://www.edouardphilippe.fr/#priorites",
+      "pages_sources": [
+        {
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure",
+          "titre": "Pour une France plus sûre",
+          "html_sha256": "f0464c3668466e07f6e984603a2d95351043f27189ddb41422b481c81ba36c90",
+          "capture_date": "2026-11-07T21:37:00Z"
+        },
+        {
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants",
+          "titre": "Pour une France plus attentive à ses enfants",
+          "html_sha256": "a975ff4c94bfb980fa1e40bec1bcfcd62d85ba1125109f46d6f335d989673a2b",
+          "capture_date": "2026-11-07T21:38:00Z"
+        },
+        {
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere",
+          "titre": "Pour une France plus prospère",
+          "html_sha256": "31ba4c47e7df96cc7ab82ba5e3319962dbbab7d66901f02ad807927a777749c8",
+          "capture_date": "2026-11-07T21:38:30Z"
+        },
+        {
+          "url": "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante",
+          "titre": "Pour une France plus conquérante",
+          "html_sha256": "06a3173fd13edf9fce27be39ffffbfee5957741c41a695fe274b28fa6ba1adf7",
+          "capture_date": "2026-11-07T21:39:30Z"
+        }
+      ],
+      "capture_date": "2026-11-07T21:39:47Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : texte relevé dans le navigateur, empreinte SHA-256 du HTML de chaque page conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "ea9fba70265374da1d167e9667dd86b00a7535ad27c1399b6ce48e491653a3d7",
+      "pages": 4,
+      "mots": 2793,
+      "extraction": "innerText via navigateur intégré",
+      "extraction_note": "pour chaque page, contenu de l'élément <main article> (titre H1 + bloc .prose) ; exclus : lien « Retour », étiquette de rubrique « Les priorités » et bloc de navigation « Les autres priorités »",
+      "remplace": null
+    }
+  ]
+}
