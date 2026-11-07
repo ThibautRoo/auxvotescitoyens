@@ -1,0 +1,353 @@
+{
+  "slug": "dupont-aignan-nicolas",
+  "nom": "Nicolas Dupont-Aignan",
+  "mouvement": "Debout la France",
+  "site_officiel": "https://www.dupontaignan.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://www.dupontaignan.fr/",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Le Projet de Debout La France",
+      "source_url": "https://www.debout-la-france.fr/notre-projet/",
+      "pages_sources": [
+        {
+          "url": "https://www.debout-la-france.fr/notre-projet/",
+          "titre": "Le Projet de Debout La France",
+          "html_sha256": "4f74165000b984ae56c3714d452f2ef9d077a42794c2b9e3a35fb1fc30fe53a0",
+          "capture_date": "2026-11-07T22:08:20Z"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/securite/",
+          "titre": "Sécurité",
+          "html_sha256": "dcadd905e03728b526d2d85a9a8cef75706cc94c8cd57c4106657a96af1e8608",
+          "capture_date": "2026-11-07T22:06:06Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/intelligence-artificielle/",
+          "titre": "Intelligence Artificielle",
+          "html_sha256": "a3f67af96a92961083492936df0fd8515a14b0cd862aad4322a9a171a7266015",
+          "capture_date": "2026-11-07T22:06:07Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/produire-en-france/",
+          "titre": "Produire en France",
+          "html_sha256": "8de7be29ff13a401b307d55662e419220a6f0cf174712eb07397ac8c0448d9ce",
+          "capture_date": "2026-11-07T22:06:07Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
+          "titre": "Refonder et moraliser notre démocratie",
+          "html_sha256": "8d3778a9407fc6cee6d4f71db5cf9472f46d87d5cbd0d1ccaab82374a62b0e4a",
+          "capture_date": "2026-11-07T22:06:08Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/affaires-europeennes/",
+          "titre": "Affaires européennes",
+          "html_sha256": "28a54bef267b55a7c25bca4442bb4ce11a33e54bb6bb61bb4fe790a1def228fd",
+          "capture_date": "2026-11-07T22:06:08Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/affaires-etrangeres/",
+          "titre": "Affaires étrangères",
+          "html_sha256": "e78eba52a0aa3823bdd35a59d8fba7183214f0827f97cadc20c107e93b241395",
+          "capture_date": "2026-11-07T22:06:09Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/grand-partenariat-entre-la-france-et-l-afrique/",
+          "titre": "Le grand partenariat entre la France et l’Afrique",
+          "html_sha256": "21ad3b8065927ad6a7cc70166f54d3bef0ce10d1ea463d0c091301679cfcd672",
+          "capture_date": "2026-11-07T22:06:09Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/francais-de-l-etranger/",
+          "titre": "Français de l’étranger",
+          "html_sha256": "3f339c33fd4e7e58ab80d8b7f145ece72bda3117c492798ff31f252f9b8199dc",
+          "capture_date": "2026-11-07T22:06:10Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/defense/",
+          "titre": "Défense nationale",
+          "html_sha256": "63ca01969af73c433414071d3f89fd2dfcd21b7b2b46d5b8d38496dd6fa32763",
+          "capture_date": "2026-11-07T22:06:10Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/economie-travail/",
+          "titre": "Économie",
+          "html_sha256": "76f27b3deffcdfca7739e667f3613b32164ba97d432f74cf968c4e2f02b90482",
+          "capture_date": "2026-11-07T22:06:11Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/sciences-souverainete-industrielle/",
+          "titre": "Sciences, souveraineté industrielle et numérique",
+          "html_sha256": "86dc9b8ebce1376b537e70d2c38bc183c06f3cad7c96f6a9f87788d4cf69d394",
+          "capture_date": "2026-11-07T22:06:11Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/agriculture/",
+          "titre": "Agriculture",
+          "html_sha256": "e524beba68ffb1293bbd51fa1525808b1636bfa019cde56b67f62e4cbae6eb00",
+          "capture_date": "2026-11-07T22:06:12Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/environnement-energie/",
+          "titre": "Environnement et Énergie",
+          "html_sha256": "0bbe8150ff777b2131193cf7a414dc54df8f9225eded01a0430499f62e9201c7",
+          "capture_date": "2026-11-07T22:06:13Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/politique-mer/",
+          "titre": "Politique de la mer",
+          "html_sha256": "518e744468e167d2dde83fa89a64a69dd9662d2aacd1a811f18b8734d45dc3c1",
+          "capture_date": "2026-11-07T22:06:13Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/sport-associations/",
+          "titre": "Sport et Associations",
+          "html_sha256": "a3d0b3c7f56082c56548af72dfbd4631afd3c304349249f73d5a52eb0bda0345",
+          "capture_date": "2026-11-07T22:06:14Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/culture-patrimoine/",
+          "titre": "Culture et patrimoine",
+          "html_sha256": "a7a366e4e193ba61b8dbe7b14ad7cf6d0b0eb28d2f36a20e94c91e705d8bd468",
+          "capture_date": "2026-11-07T22:06:14Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/justice/",
+          "titre": "Justice",
+          "html_sha256": "865e933be659d89c30eabb0a79a2e0d7648b229b819d4fd9b0be8232046e8761",
+          "capture_date": "2026-11-07T22:06:15Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
+          "titre": "Immigration et assimilation",
+          "html_sha256": "11effbae557ef093013aa574ccd2df2057c986c7884f8b6507dabbd29b36a87f",
+          "capture_date": "2026-11-07T22:06:15Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/combat-pour-les-femmes/",
+          "titre": "Combat pour les femmes",
+          "html_sha256": "b633361845c92a285a991fca4763ff59f2e6fc7265c67e871dcbe2d543ce05aa",
+          "capture_date": "2026-11-07T22:06:16Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/famille/",
+          "titre": "Famille",
+          "html_sha256": "cd08ea2f068cfb144c921e15de3197d67668ce4f20950bd9db72eb67e118fb00",
+          "capture_date": "2026-11-07T22:06:16Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/instruction-publique/",
+          "titre": "Éducation",
+          "html_sha256": "aa310e7c7aaa20a3c90dd04c71f846433773670d26a1ea140b0f5e74e1a903a2",
+          "capture_date": "2026-11-07T22:06:17Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/enseignement-superieur/",
+          "titre": "Enseignement supérieur",
+          "html_sha256": "a8be8bada70b2ad822193035867a01708d122ec65324b67da45ba453cc344025",
+          "capture_date": "2026-11-07T22:06:17Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/logement/",
+          "titre": "Logement",
+          "html_sha256": "c3b0542bc30a57c226045bd54fbb2fd0e813e9bf5be7bf81adb48751da1bec49",
+          "capture_date": "2026-11-07T22:06:18Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/retraites/",
+          "titre": "Retraites",
+          "html_sha256": "33375f819aa1340d87933b34133f2fa37ab01779fefc4953598324bfa01976f5",
+          "capture_date": "2026-11-07T22:06:18Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/sante/",
+          "titre": "Santé",
+          "html_sha256": "dd41432263a9ed4d37ae49ae257f233af48679385daad9ec45f8484aa1673537",
+          "capture_date": "2026-11-07T22:06:19Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/dependance-fin-de-vie/",
+          "titre": "Dépendance et fin de vie",
+          "html_sha256": "26fd56d4b407a32324a32f100d8e463b59be313c7beaf7d57ac74c394104c097",
+          "capture_date": "2026-11-07T22:06:19Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/handicap/",
+          "titre": "Handicap",
+          "html_sha256": "b8d05b2f11d9b24429eddffaa1c410f58527940bb6c56e131b0119c39d9c0ae9",
+          "capture_date": "2026-11-07T22:06:20Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/equilibre-territoire-monde-rural/",
+          "titre": "Équilibre du territoire",
+          "html_sha256": "c6f3b794e82e86f47f6d48583fefb6b77cf4acc148d5ca33948e79168c06230f",
+          "capture_date": "2026-11-07T22:06:20Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/outre-mer/",
+          "titre": "Outre-mer",
+          "html_sha256": "1e0e96a960f502da309e536a0ade758d62238bd43111d6cac69f25aec1201048",
+          "capture_date": "2026-11-07T22:06:21Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/transport-automobilistes/",
+          "titre": "Automobilistes et Motards",
+          "html_sha256": "1d4197bd0b10a797dd3124111d81da8445211440e67172468fb1789dd043abf1",
+          "capture_date": "2026-11-07T22:06:21Z",
+          "projet_2027": true
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/tourisme/",
+          "titre": "Tourisme",
+          "html_sha256": "2d1950fa4e1e28e6a73a3ddbe9a0e8025957fe2efbb30d8ebaea224ea571a859",
+          "capture_date": "2026-11-07T22:06:22Z",
+          "projet_2027": false
+        },
+        {
+          "url": "https://www.debout-la-france.fr/projet/bien-etre-animal/",
+          "titre": "Bien-être animal",
+          "html_sha256": "c9410931ef9197bdd2c51059cd8a08e7e10def377f5f4cceb043dd9495bbbbcb",
+          "capture_date": "2026-11-07T22:06:22Z",
+          "projet_2027": false
+        }
+      ],
+      "capture_date": "2026-11-07T22:10:33Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : texte relevé dans le navigateur, empreinte SHA-256 du HTML de chaque page conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "23c1ee774614db7fccb5e81705a1c5b4ec55ad9be6c83c02e6a675451ecc0225",
+      "pages": 33,
+      "mots": 67168,
+      "extraction": "innerText via navigateur intégré",
+      "extraction_note": "Le programme est publié sur le site du parti (debout-la-france.fr), le site de campagne dupontaignan.fr renvoyant vers le projet. Page hub « Le Projet de Debout La France » : innerText du conteneur #content (grille des 32 thèmes incluse, rendue après chargement des vignettes). Le hub indique : « Nos équipes travaillent actuellement à l’actualisation de notre programme pour l’élection présidentielle de 2027. Les articles déjà mis à jour sont identifiés par le badge « Projet 2027 » ! ». Pages thématiques : HTML récupéré par fetch depuis une page du site, analysé avec DOMParser ; le bloc article .project-content a été inséré hors écran dans le DOM de la page courante (même feuille de style du thème) pour obtenir son innerText ; titre H1 de la page (textContent, hors text-transform CSS) ajouté en première ligne. Exclus : en-tête, menus, pied de page, navigation « Onglet précédent / suivant » entre thèmes, et le seul bloc « Version PDF du projet / Je télécharge ! » (bouton de téléchargement du livret, listé dans documents_a_recuperer). Les liens PDF externes cités dans le corps du texte (Retraites, Santé) sont conservés. Badge « Projet 2027 » : sur le site il correspond à la catégorie de portfolio WordPress « 2027 » (id 925, classe dt_portfolio_category-925 sur l’article) ; projet_2027 = true pour les 19 pages portant cette classe, false pour les 13 autres. Fidélité vérifiée : SHA-256 du texte assemblé côté navigateur identique à celui du fichier écrit.",
+      "documents_a_recuperer": [
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2025/10/Securite-2025_10-31_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/securite/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2025/06/Intelligence-Artificielle-2025_05-12_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/intelligence-artificielle/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2026/10/Produire-en-France-2026_10-13_Brochure.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/produire-en-france/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2026/06/Refonder-et-moraliser-notre-democratie-2026_06-09_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2025/06/Affaires-etrangeres-2025_04-17_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/affaires-etrangeres/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2025/09/Francais-de-letranger-2025_09-04_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/francais-de-l-etranger/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2025/04/Defense-Nationale-2025_04-15-Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/defense/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2026/01/Agriculture-2026_01-08_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/agriculture/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2026/06/Justice-2026_06-10_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/justice/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2026/03/Immigration-et-assimilation-2026_03-03_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/immigration-et-assimilation/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2025/10/Combat-pour-les-Femmes-2025_10-21_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/combat-pour-les-femmes/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2026/01/Famille-2026_01-02_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/famille/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2026/09/Logement-2026_09-30_brochure.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/logement/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2025/01/Equilibre-du-territoire-2024_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/equilibre-territoire-monde-rural/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://www.debout-la-france.fr/wp-content/uploads/2026/01/Automobilistes-et-motards-2026_01-02_Livret.pdf",
+          "format": "pdf",
+          "page_source": "https://www.debout-la-france.fr/projet/transport-automobilistes/",
+          "note": "livret PDF téléchargeable depuis la page (bouton « Je télécharge ! » sous « Version PDF du projet ») ; à télécharger manuellement"
+        }
+      ],
+      "remplace": null
+    }
+  ]
+}

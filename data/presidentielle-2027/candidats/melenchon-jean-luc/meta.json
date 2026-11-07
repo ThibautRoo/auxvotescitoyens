@@ -1,0 +1,251 @@
+{
+  "slug": "melenchon-jean-luc",
+  "nom": "Jean-Luc Mélenchon",
+  "mouvement": "La France insoumise",
+  "site_officiel": "https://melenchon2027.fr",
+  "statut": "declare",
+  "declaration_date": "2026-05-05",
+  "declaration_source": "https://melenchon2027.fr/lettre-au-peuple-de-france/",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "L’Avenir en commun",
+      "source_url": "https://melenchon2027.fr/programme/livre/",
+      "pages_sources": [
+        {
+          "url": "https://melenchon2027.fr/programme/decouvrir/",
+          "titre": "Découvrir le programme",
+          "html_sha256": "cf8b878b7d5bb267193bead6f64507aea19fd54b81308b0f802b384bb5a31ca9",
+          "capture_date": "2026-11-07T22:12:02Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/",
+          "titre": "L’Avenir en commun – Table des matières",
+          "html_sha256": "d38e7eee46a4914ddff347f19f1c1362f29224126a2253fe430531ff3582f12e",
+          "capture_date": "2026-11-07T22:14:03Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/introduction",
+          "titre": "Introduction : Vers une nouvelle France",
+          "html_sha256": "8e097968cfdac2064d8c964b2770d3c69023ae9e7014ba20992a609bbc94242d",
+          "capture_date": "2026-11-07T22:14:04Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale",
+          "titre": "Partie 1 – Pour une bifurcation écologique et sociale",
+          "html_sha256": "c209895e925fbb89b016ffcaa986392f95f14bf623086e48f5efafc75d4e5111",
+          "capture_date": "2026-11-07T22:14:06Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1",
+          "titre": "Chapitre 1 : Planification écologique",
+          "html_sha256": "7d7549fceaa86cc47e96fe9b56402b6e2ffd83a88a2ba312a3e1812e51fe676d",
+          "capture_date": "2026-11-07T22:14:07Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2",
+          "titre": "Chapitre 2 : Produire nous-mêmes pour répondre aux besoins",
+          "html_sha256": "8763aa9c1d044b5492796542dc1b14ff298622ed7fd510b3a06c45f6aca21812",
+          "capture_date": "2026-11-07T22:14:09Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3",
+          "titre": "Chapitre 3 : Les grands chantiers de la bifurcation écologique",
+          "html_sha256": "c233d2f49b8e1a91807adfbd04fb69022ae14e6e1cc84dcd6522e8bade5c0910",
+          "capture_date": "2026-11-07T22:14:10Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins",
+          "titre": "Partie 2 – Une économie au service des besoins",
+          "html_sha256": "ef9d73b7c9ae7906401b03c4ebaa2acb676f2deb10343883816ac8e71f2d6cb4",
+          "capture_date": "2026-11-07T22:14:12Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1",
+          "titre": "Chapitre 1 : L’ère d’un nouveau collectivisme",
+          "html_sha256": "ce39932c85c7d97d10101f5a91bf1e981a855c3ca25c9032c7242792fb9a1fc1",
+          "capture_date": "2026-11-07T22:14:14Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2",
+          "titre": "Chapitre 2 : Partager les richesses",
+          "html_sha256": "7022d6d23324d1ed89f806843890a295900ef852a3349a92c31d157c74dd5120",
+          "capture_date": "2026-11-07T22:14:15Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre3",
+          "titre": "Chapitre 3 : Un pacte productif pour répondre aux besoins",
+          "html_sha256": "1a9c26fd5ae8a6f327784b31f329d20dd5ed4e6138011665808f3617132d660d",
+          "capture_date": "2026-11-07T22:14:17Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale",
+          "titre": "Partie 3 – Mettre en sécurité sociale",
+          "html_sha256": "8da7f8eecf581faa53222e4f193cce94aab6d14658a43d461299d54750e035dd",
+          "capture_date": "2026-11-07T22:14:18Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1",
+          "titre": "Chapitre 1 : À chacun selon ses besoins",
+          "html_sha256": "074b82737916bdd8ddd134a141f392cbf07214f788ffd861852183cee5f91f4c",
+          "capture_date": "2026-11-07T22:14:20Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2",
+          "titre": "Chapitre 2 : Une République de l’égalité réelle et des droits nouveaux",
+          "html_sha256": "8efdc3a0588db3eabd2893ce27d994c8d1a0ea9c8389a5cf27fad35a609bf263",
+          "capture_date": "2026-11-07T22:14:39Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre3",
+          "titre": "Chapitre 3 : Entrer pleinement dans l’ère de l’émancipation des femmes",
+          "html_sha256": "31ae6e9cb5cc136fc3586df2bc01eb58299b72d007b39ab074232715d78fa1f3",
+          "capture_date": "2026-11-07T22:14:40Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4",
+          "titre": "Chapitre 4 : Faire triompher l’égalité contre le racisme et les discriminations",
+          "html_sha256": "89f4d8b779a9c1f9a0cc5a0b525c269cf797967a8b21ec61a9d7c7ae9bfb5b33",
+          "capture_date": "2026-11-07T22:14:42Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite",
+          "titre": "Partie 4 – Le goût du futur : aux nouvelles frontières de l’humanité",
+          "html_sha256": "ce32cf13141cee72914af8c4077e2a36ef6e104fdde18dbbe0a331fdf18d7d05",
+          "capture_date": "2026-11-07T22:14:43Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre1",
+          "titre": "Chapitre 1 : Les nouveaux droits de l’espèce : protéger les biens communs",
+          "html_sha256": "eca3b524928d6d480ee219066baa5b4025efc5864ad45b1764dedbe7dc37dda4",
+          "capture_date": "2026-11-07T22:14:45Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2",
+          "titre": "Chapitre 2 : Élever le niveau d’éducation et de savoirs",
+          "html_sha256": "fec9367ce5cf02822b1a4930d0841b60a7eb78247c1081e0be15d180a8ea2142",
+          "capture_date": "2026-11-07T22:14:46Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre3",
+          "titre": "Chapitre 3 : Humaniser par la culture et le sport",
+          "html_sha256": "c81223a381393e1f7b66b43e5a8e1df04a2cc21bbcccfce01943995df84ae0b4",
+          "capture_date": "2026-11-07T22:14:48Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4",
+          "titre": "Chapitre 4 : Faire de la santé un enjeu global",
+          "html_sha256": "0b441bd31bb405fd27425c530bb9648d891a6cd1d04e0c90caa74929e87f7749",
+          "capture_date": "2026-11-07T22:14:50Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre5",
+          "titre": "Chapitre 5 : Entrer en mer sans saccage",
+          "html_sha256": "67130da4084aea7738d024599cc5d1018c7c01c777d45d4a873f418abed87352",
+          "capture_date": "2026-11-07T22:14:51Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre6",
+          "titre": "Chapitre 6 : Mettre le spatial au service de l’intérêt général humain",
+          "html_sha256": "493e2d19745a52373870091a55d0594762c7290b1f7aaa18410d4954b5b6e617",
+          "capture_date": "2026-11-07T22:14:53Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre7",
+          "titre": "Chapitre 7 : Démocratiser la révolution numérique",
+          "html_sha256": "1bc1b03e6309b895f7bf53f3296b9783ae172ab00953292f5e755ce0c4af953c",
+          "capture_date": "2026-11-07T22:14:55Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique",
+          "titre": "Partie 5 – Fonder la 6e République",
+          "html_sha256": "d92870d35c8366fc730c9ef4c1f68575cdb82fd95ac9f8770e7a380d05d2d580",
+          "capture_date": "2026-11-07T22:14:56Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1",
+          "titre": "Chapitre 1 : Le pouvoir au peuple",
+          "html_sha256": "673915ffcd03d88313d8598e2a199bf224460730285e3b569b64b93a616017c9",
+          "capture_date": "2026-11-07T22:15:08Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2",
+          "titre": "Chapitre 2 : Libertés publiques et sûreté",
+          "html_sha256": "1e013a4c9464c9943352c3dfe94b45d0e92735bafa013485950f977692f22201",
+          "capture_date": "2026-11-07T22:15:09Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3",
+          "titre": "Chapitre 3 : Une France sans déserts de droits",
+          "html_sha256": "5b028c149d6741fa92f647f2f31bfcc1d201f84f83b65a7f2d66f8c382faef24",
+          "capture_date": "2026-11-07T22:15:11Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne",
+          "titre": "Partie 6 – Un monde ordonné",
+          "html_sha256": "38471a5482ff84197f609bc05e6edb62e741e743ca9176d76c6b2fec0d3ec6e3",
+          "capture_date": "2026-11-07T22:15:12Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1",
+          "titre": "Chapitre 1 : Se libérer du libéralisme en Europe",
+          "html_sha256": "6b2e27a7e31ead090b9a8ecad04855d430de5d015866a67dcb825faf3c12aee0",
+          "capture_date": "2026-11-07T22:15:14Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2",
+          "titre": "Chapitre 2 : Une France indépendante au service de la paix",
+          "html_sha256": "c77055e1e4762af3f7e8ff68f2cb2bcce2d1866bb4459272d44480a2eeba5f81",
+          "capture_date": "2026-11-07T22:15:15Z"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3",
+          "titre": "Chapitre 3 : Les nouvelles coopérations de la diplomatie altermondialiste",
+          "html_sha256": "1d2769e30215329053ced2e29bde3c0447f172416eff34b68f105d22ea25bcda",
+          "capture_date": "2026-11-07T22:15:17Z"
+        }
+      ],
+      "capture_date": "2026-11-07T22:16:15Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : texte relevé dans le navigateur, empreinte SHA-256 du HTML de chaque page conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "128859b59fa025ff63a31495d3cce7f776985892c0ea6aae29accef819d05c1b",
+      "pages": 32,
+      "mots": 41800,
+      "extraction": "innerText via navigateur intégré",
+      "extraction_note": "Édition 2027 de L’Avenir en commun (le site parle de « 6e édition » sur la page Découvrir, et de « cinquième édition, depuis 2016 » dans l’introduction). Chaque page a été chargée dans le navigateur intégré (navigate) puis son innerText relevé. Page « Découvrir le programme » : conteneur de contenu Elementor (div.elementor-24158), hors en-tête et pied de page ; elle contient les libellés de boutons « Commander », « Lire », « Consulter », « Lire le PDF », conservés tels quels. Page « Table des matières » et pages du livre (introduction, 6 parties, 23 chapitres) : innerText de <main>, dans l’ordre de la table des matières relevée sur https://melenchon2027.fr/programme/livre/ (URL non devinées). Sur les pages de partie, seul le lien de navigation final « Partie suivante » (a.next) a été retiré ; le sommaire de la partie (nav.tdm, liste des chapitres et sections) est conservé. Les titres de séparateur (=== ... ===) reprennent les libellés de la table des matières ; les titres en capitales dans le corps reflètent le rendu CSS (text-transform). Exclus : en-tête, menus, pied de page, bandeau cookies, popup de partage. Non archivés : les archives « L'Avenir en commun, édition 2025 », « Les livrets 2022 », « Les plans 2022 », « Programme de la NUPES 2022 », « Programme du NFP 2024 », « Programme version FALC 2022 » (menu « Le corpus de la France insoumise »), ainsi que les plans thématiques et plans d’investissement productif (index listés dans documents_a_recuperer). Fidélité vérifiée : SHA-256 du texte assemblé côté navigateur identique à celui du fichier écrit.",
+      "documents_a_recuperer": [
+        {
+          "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/Comment-nous-allons-remettre-de-l-ordre-dans-les-comptes-publics.pdf",
+          "format": "pdf",
+          "page_source": "https://melenchon2027.fr/programme/decouvrir/",
+          "note": "document « Comment nous allons remettre de l'ordre dans les comptes publics » (orientations budgétaires 2027), lien « Lire le PDF » sur la page Découvrir le programme ; à télécharger manuellement"
+        },
+        {
+          "url": "https://melenchon2027.fr/wp-content/uploads/2026/10/DP-POLE-PUBLIC-BANCAIRE_ST.pdf",
+          "format": "pdf",
+          "page_source": "https://melenchon2027.fr/programme/decouvrir/",
+          "note": "document « Pour un pôle public bancaire », lien « Lire le PDF » sur la page Découvrir le programme ; à télécharger manuellement"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/plans-thematiques/",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://melenchon2027.fr/programme/decouvrir/",
+          "note": "index des plans thématiques qui complètent L’Avenir en commun ; non archivé dans programme-v1"
+        },
+        {
+          "url": "https://melenchon2027.fr/programme/plans-investissement/",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://melenchon2027.fr/programme/decouvrir/",
+          "note": "index des plans d’investissement productif ; non archivé dans programme-v1"
+        }
+      ],
+      "remplace": null
+    }
+  ]
+}
