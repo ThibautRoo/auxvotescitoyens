@@ -1,0 +1,15 @@
+{
+  "id": "presidentielle-2027",
+  "nom": "Élection présidentielle 2027",
+  "premier_tour": "2027-04-11",
+  "second_tour": "2027-04-25",
+  "dates_officielles": false,
+  "liste_officielle_publiee": false,
+  "liste_officielle_date_prevue": "2027-03",
+  "statut": "candidats-declares",
+  "sources": {
+    "conseil_constitutionnel": "https://www.conseil-constitutionnel.fr/",
+    "cnccep": null,
+    "ministere_interieur": "https://programme-candidats.interieur.gouv.fr/"
+  }
+}

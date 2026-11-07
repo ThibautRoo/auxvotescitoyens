@@ -1,0 +1,17 @@
+{
+  "_regle": "Un sujet est une liste de mots. La recherche est mécanique et identique pour tous les candidats. Toute modification de ce fichier est publique. Propositions d'ajout ou de retrait : par issue ou pull request.",
+  "sujets": [
+    { "id": "travail", "nom": "Travail", "mots": ["travail", "emploi", "chômage", "salaire", "SMIC", "entreprise", "syndicat", "temps de travail"] },
+    { "id": "retraites", "nom": "Retraites", "mots": ["retraite", "pension", "âge de départ", "cotisation"] },
+    { "id": "sante", "nom": "Santé", "mots": ["santé", "hôpital", "médecin", "sécurité sociale", "déserts médicaux", "handicap", "dépendance"] },
+    { "id": "ecole", "nom": "École", "mots": ["école", "éducation", "enseignant", "lycée", "collège", "université", "apprentissage"] },
+    { "id": "securite", "nom": "Sécurité", "mots": ["sécurité", "police", "gendarmerie", "délinquance", "justice", "prison", "terrorisme"] },
+    { "id": "logement", "nom": "Logement", "mots": ["logement", "loyer", "HLM", "propriétaire", "locataire", "construction"] },
+    { "id": "impots", "nom": "Impôts", "mots": ["impôt", "fiscalité", "TVA", "taxe", "dette", "déficit", "budget"] },
+    { "id": "environnement", "nom": "Environnement", "mots": ["climat", "énergie", "nucléaire", "renouvelable", "biodiversité", "pollution", "agriculture", "eau", "transition écologique"] },
+    { "id": "europe", "nom": "Europe", "mots": ["Europe", "Union européenne", "euro", "Bruxelles", "traité"] },
+    { "id": "immigration", "nom": "Immigration", "mots": ["immigration", "immigré", "asile", "frontière", "naturalisation", "titre de séjour"] },
+    { "id": "institutions", "nom": "Institutions", "mots": ["référendum", "Constitution", "Parlement", "proportionnelle", "Sénat", "démocratie", "RIC"] },
+    { "id": "defense", "nom": "Défense", "mots": ["défense", "armée", "OTAN", "militaire", "souveraineté"] }
+  ]
+}

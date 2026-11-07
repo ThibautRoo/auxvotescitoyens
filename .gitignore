@@ -1,0 +1,29 @@
+# Secrets et configuration locale : jamais dans le dépôt
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+id_rsa*
+id_ed25519*
+*.token
+secrets*
+credentials*
+wrangler.toml.local
+
+# Système et éditeurs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+
+# Dépendances et builds
+node_modules/
+dist/
+build/
+.cache/
+__pycache__/
+*.pyc
+.venv/
