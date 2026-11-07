@@ -1,0 +1,112 @@
+{
+  "slug": "tondelier-marine",
+  "nom": "Marine Tondelier",
+  "mouvement": "Les Écologistes",
+  "site_officiel": "https://www.marinetondelier.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": null,
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Projet 2027",
+      "source_url": "https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet",
+      "pages_sources": [
+        {
+          "url": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+          "titre": "Projet 2027",
+          "html_sha256": "111e7f6cc684b2b4cbc31963ef3f9a73ee9b25dacf70cb63bab0f6cc1977d9fd",
+          "capture_date": "2026-11-07T22:29:18Z"
+        }
+      ],
+      "capture_date": "2026-11-07T22:29:18Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "page web : texte relevé dans le navigateur, empreinte SHA-256 du HTML conservée ; le programme complet est un PDF non téléchargé (documents_a_recuperer)",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "a40a8cdf46434c2efb00377d233158d0c1f120acbac559d1442ad46c05e2489b",
+      "pages": 1,
+      "mots": 154,
+      "extraction": "innerText via navigateur intégré",
+      "extraction_note": "Le programme « 557 mesures » des Écologistes (« Projet 2027 ») n’est publié que sous forme de PDF (lien « JE TÉLÉCHARGE LE PROGRAMME » vers vdef-programme-1.pdf) ; aucune version HTML ni sous-page n’existe : la page https://lesecologistes.fr/share/page/6ImK65GKUnvibm33WGkjkj/projet (lien « 557 mesures » du menu de marinetondelier.fr) redirige vers https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027, page unique de présentation. Ce fichier programme-v1 ne contient donc que le texte de présentation de cette page (innerText de <main>, conteneur div.content-page), chargée dans le navigateur intégré ; le PDF du programme n’a pas été téléchargé (voir documents_a_recuperer) et devra constituer le document principal une fois récupéré. Conservé tel quel : libellé du bouton « JE TÉLÉCHARGE LE PROGRAMME ». Exclus : en-tête, menus, pied de page, boutons de partage (icônes sans texte). La page indique que le programme « repose … sur une démarche collective, transparente et évolutive » (consultation citoyenne, « près de 50 000 contributions »). Non téléchargés, listés dans documents_a_recuperer : les livrets thématiques (page https://marinetondelier.fr/livrets-thematiques : travail, montagne, santé environnementale, solitude, santé reproductive, littoraux, enfance ; le livret Travail est aussi hébergé sur lesecologistes.fr) et les deux carnets de doctrine (https://marinetondelier.fr/carnets-de-doctrine). Site de campagne https://www.marinetondelier.fr (Squarespace) : pas de page programme propre, le menu « Le programme » renvoie vers les 557 mesures, les livrets, les carnets et le manifeste. Aucune mention d’un référendum interne de validation de la candidature n’a été trouvée sur lesecologistes.fr ni sur marinetondelier.fr lors de la capture. Fidélité vérifiée : SHA-256 du texte assemblé côté navigateur identique à celui du fichier écrit.",
+      "documents_a_recuperer": [
+        {
+          "url": "https://lesecologistes.fr/document/3N4JsAEmq6vsx42IITGNZa/vdef-programme-1.pdf",
+          "format": "pdf",
+          "page_source": "https://lesecologistes.fr/pages/6ImK65GKUnvibm33WGkjkj/projet-2027",
+          "note": "le programme « 557 mesures » lui-même (bouton « JE TÉLÉCHARGE LE PROGRAMME ») ; non téléchargé, à récupérer manuellement puis à archiver comme original/ avec extraction du texte"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/livret-travail.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/livrets-thematiques",
+          "note": "livret thématique « Nos propositions pour un travail émancipateur, écologique et démocratique » (lien « Consulter le livret ») ; non téléchargé"
+        },
+        {
+          "url": "https://lesecologistes.fr/document/17eu3XNpFUHgWjSZ82G4Dp/livret-travail.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/livrets-thematiques",
+          "note": "même livret Travail, exemplaire hébergé sur lesecologistes.fr (lien « Voir le livret » de la page d’accueil marinetondelier.fr et vignette de la page Livrets thématiques) ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/Livret-montagne.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/livrets-thematiques",
+          "note": "livret thématique « Pour une montagne vivante, accueillante et résiliente » ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/Livret-sante-environnementale.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/livrets-thematiques",
+          "note": "livret thématique santé environnementale (« 3 enfants sur 4 respirent un air pollué ») ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/Livret-solitude.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/livrets-thematiques",
+          "note": "livret thématique solitude (« 1 Français·e sur 4 souffre de solitude ») ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/Livret-sante-reproductive.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/livrets-thematiques",
+          "note": "livret thématique « Prendre soin de notre santé reproductive » ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/Livret-littoraux.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/livrets-thematiques",
+          "note": "livret thématique « Des littoraux à vivre, à protéger et à transmettre » ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/livret-enfance-vf.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/livrets-thematiques",
+          "note": "livret thématique « Pour un pays à hauteur d’enfants » ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/CARNET-DE-DOCTRINE-INTERNATIONAL.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/carnets-de-doctrine",
+          "note": "carnet de doctrine « L’Europe comme puissance écologique » ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/s/Carnet-numerique.pdf",
+          "format": "pdf",
+          "page_source": "https://marinetondelier.fr/carnets-de-doctrine",
+          "note": "carnet de doctrine « Reprendre la main sur le numérique » ; non téléchargé"
+        },
+        {
+          "url": "https://marinetondelier.fr/manifeste",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://marinetondelier.fr",
+          "note": "« Ce que nous vous devons », manifeste pour une primaire de la gauche et des écologistes ; PDF accessible uniquement après saisie d’un formulaire (e-mail, code postal) ; non archivé"
+        }
+      ],
+      "remplace": null
+    }
+  ]
+}

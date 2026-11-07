@@ -1,0 +1,766 @@
+{
+  "slug": "attal-gabriel",
+  "nom": "Gabriel Attal",
+  "mouvement": "Renaissance",
+  "site_officiel": "https://attalpresident.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": null,
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Mes chantiers capitaux et les premières mesures annoncées",
+      "source_url": "https://attalpresident.fr/programme",
+      "pages_sources": [
+        {
+          "capture_date": "2026-11-07T22:21:24Z",
+          "html_sha256": "f3625144da97fe1f9a1b10ea7ccb0c9f2e96e199d6cdf101105c6706fc99fcd1",
+          "titre": "MES CHANTIERS CAPITAUX",
+          "url": "https://attalpresident.fr/programme"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:25Z",
+          "html_sha256": "e753acf34435d03575730afa3575df2ef089556da3c0004fad067dfac93a725c",
+          "titre": "ÉCOLE",
+          "url": "https://attalpresident.fr/programme/education"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:26Z",
+          "html_sha256": "7246cffbb00ab469aced7834b6f2f18ae29fcd2e681e079322bafabf1fdec2e5",
+          "titre": "TRAVAIL & SALAIRES",
+          "url": "https://attalpresident.fr/programme/travail-salaires"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:29Z",
+          "html_sha256": "b27ca6197ed3c2b256ba17b0a56669319d027766132a2505effcbcf120bafac6",
+          "titre": "FRONTIÈRES",
+          "url": "https://attalpresident.fr/programme/frontieres"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:31Z",
+          "html_sha256": "063ecfaca9158997cb9d9a56dd88e1206f68932018d4013fc92c7c991879f639",
+          "titre": "INTELLIGENCE ARTIFICIELLE",
+          "url": "https://attalpresident.fr/programme/intelligence-artificielle"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:32Z",
+          "html_sha256": "b9b4cfe11d164e9ae40b6dc83f290c2c8f85b28a4ffaffe536165c418dffba77",
+          "titre": "DETTE DE L'ÉTAT",
+          "url": "https://attalpresident.fr/programme/dette-de-letat"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:33Z",
+          "html_sha256": "bad91c95ef3de37c4466cb977dd630d4c4d49d35442961791ede8aee558a5321",
+          "titre": "DETTE ÉCOLOGIQUE",
+          "url": "https://attalpresident.fr/programme/dette-ecologique"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:35Z",
+          "html_sha256": "cbc97c7a4917d9e2f45ac029d32c0a2efdd4109ed1ee9788a0407b487ca2230d",
+          "titre": "SANTÉ",
+          "url": "https://attalpresident.fr/programme/thematiques/sante"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:36Z",
+          "html_sha256": "feeb198cfa49187d1e1ef696af6d8f52566a62b4155a2c226b6585b4fb02ce8d",
+          "titre": "DÉFENSE",
+          "url": "https://attalpresident.fr/programme/thematiques/defense"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:37Z",
+          "html_sha256": "92dd0413e2ce195071188be8ae790d303bbd9b024c1ead9202c869a973cab1e0",
+          "titre": "SIMPLIFICATION",
+          "url": "https://attalpresident.fr/programme/thematiques/simplification"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:38Z",
+          "html_sha256": "411b3b487ab3502baa5e459c96ea427fab7fecb91cf438dd11911b7bc2047506",
+          "titre": "AGRICULTURE",
+          "url": "https://attalpresident.fr/programme/thematiques/agriculture"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:42Z",
+          "html_sha256": "ccbacea9728ce7959176299468dba4b2dda222250e1b0d67bb4c7fa85fcef42a",
+          "titre": "Plan Voltaire : trente minutes d'esprit critique par jour",
+          "url": "https://attalpresident.fr/programme/mesures/plan-voltaire-esprit-critique"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:43Z",
+          "html_sha256": "639bc1561f17e935e46535a9f627db99fa58ec97fac1a6a754d903ea3b6dca6b",
+          "titre": "Garantir le remplacement des enseignants absents",
+          "url": "https://attalpresident.fr/programme/mesures/remplacement-enseignants-absents"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:45Z",
+          "html_sha256": "6e72c724276753dfc29609a46a21da39f1ce5c0db9d531a7fe75a393b9761e42",
+          "titre": "Généraliser la méthode de Singapour en mathématiques",
+          "url": "https://attalpresident.fr/programme/mesures/methode-singapour"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:46Z",
+          "html_sha256": "2bea2f2c8186f1679830dd6ba6a03b565685c11d5b9a4e37e750077e3127c39c",
+          "titre": "Accompagner les professionnels dépendants d'un véhicule",
+          "url": "https://attalpresident.fr/programme/mesures/aide-professionnels-vehicule"
+        },
+        {
+          "capture_date": "2026-11-07T22:21:56Z",
+          "html_sha256": "00a3941a98998b8c4671af3e13241c6b0edf0dcd30363889deda4a90e6774cfb",
+          "titre": "Retraite : une part de capitalisation fléchée vers l'innovation",
+          "url": "https://attalpresident.fr/programme/mesures/capitalisation-startups"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:03Z",
+          "html_sha256": "470406ff1147b8160d3ebabee08194bacfc07bcc8b41eca0ea946c327440d4d7",
+          "titre": "Rendre obligatoire un test PME avant chaque loi",
+          "url": "https://attalpresident.fr/programme/mesures/test-pme-avant-chaque-loi"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:08Z",
+          "html_sha256": "6c7ec87f8f34a469f2f9c90ced48c546b958f012d8281cc8222eb6498960f4e1",
+          "titre": "Une loi de programmation économique, fiscale et énergétique sur dix ans",
+          "url": "https://attalpresident.fr/programme/mesures/loi-de-stabilite-fiscale"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:11Z",
+          "html_sha256": "1a2e224aaf2b6dabd5544f55ef9211a51d4c73a389c5567f36fb607851865a39",
+          "titre": "Supprimer un échelon de collectivité pour lutter contre les doublons administratifs",
+          "url": "https://attalpresident.fr/programme/mesures/big-bang-territorial"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:12Z",
+          "html_sha256": "c30a779ee57c0173d1e7e4ded1c4298310cc018a674153c6533556b9076014b7",
+          "titre": "Punir systématiquement les dégradations, même réalisées par des mineurs",
+          "url": "https://attalpresident.fr/programme/mesures/tu-casses-tu-repares"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:14Z",
+          "html_sha256": "7df6573c9e4f16a79b43991356b77ca8008008c45f35063842ce01fcb5bee61a",
+          "titre": "Instaurer la comparution immédiate pour les mineurs",
+          "url": "https://attalpresident.fr/programme/mesures/comparution-immediate-mineurs"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:15Z",
+          "html_sha256": "0b9fb3c7c92c0aa438eb5426284b9500a7293c713e6f012bd27be8cf5233406a",
+          "titre": "Gens du voyage : des amendes majorées et des saisies des véhicules en cas d’occupation illégale",
+          "url": "https://attalpresident.fr/programme/mesures/amendes-majorees-saisie-vehicules"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:18Z",
+          "html_sha256": "99d96fb569e0b2eb6523aa3aaca8c0c4fe00286cf2f621568e3a8d80bea9660b",
+          "titre": "Créer une carte famille monoparentale",
+          "url": "https://attalpresident.fr/programme/mesures/carte-famille-monoparentale"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:20Z",
+          "html_sha256": "1b2b930e892b30563bd23e07fd4dac47049961537801c46a5edf90872bff7e68",
+          "titre": "Durcir les règles du regroupement familial",
+          "url": "https://attalpresident.fr/programme/mesures/durcir-regroupement-familial"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:22Z",
+          "html_sha256": "32ab1cde330523be57ac4d6e7c4e238e3e79fa714269a2a6371d6fe1c75d632f",
+          "titre": "Punir les propriétaires d’animaux d’une amende dès le premier acte de maltraitance",
+          "url": "https://attalpresident.fr/programme/mesures/amende-des-le-premier-acte-maltraitance"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:23Z",
+          "html_sha256": "6f65d67817500198620d8f1e01d5a9992bd20f1150997a7835ba97e9b3ed4173",
+          "titre": "Instaurer un bouclier tarifaire sur le prix de l’eau",
+          "url": "https://attalpresident.fr/programme/mesures/bouclier-tarifaire-eau"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:26Z",
+          "html_sha256": "f88e8c7b3d2b1b065c4786ddc462277e3ddb3bc3d0d4b475da1816606035c839",
+          "titre": "Garantir la stabilité des prix de l'électricité sur cinq ans",
+          "url": "https://attalpresident.fr/programme/mesures/stabilite-prix-electricite"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:27Z",
+          "html_sha256": "044a7d3fa530df14f5f6514b29d7fe769820c4094d8fcaed444b865ef2ac19c0",
+          "titre": "Investir 200 milliards d’euros pour l'IA",
+          "url": "https://attalpresident.fr/programme/mesures/plan-france-2040"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:29Z",
+          "html_sha256": "1aaba8300c178f0f3b7810b0020e21572ffb3541936d9e6fa3d63b7c8575c48b",
+          "titre": "Instaurer une journée référendaire par an pour que les Français tranchent les grandes orientations du pays",
+          "url": "https://attalpresident.fr/programme/mesures/journee-referendaire-annuelle"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:30Z",
+          "html_sha256": "cbab52a82987ecb931bb853a65768ce4dd41be5d805590c6fc3750c7d8c91b88",
+          "titre": "Une préférence européenne dans la commande publique de défense",
+          "url": "https://attalpresident.fr/programme/mesures/preference-europeenne-defense"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:31Z",
+          "html_sha256": "9e003e6701359f65484b164bf5e6aa59e45d21cbe7dde31e6e1f3921a334fb7e",
+          "titre": "Rétablir le redoublement",
+          "url": "https://attalpresident.fr/programme/mesures/retablir-redoublement"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:33Z",
+          "html_sha256": "c87d8892fb46f9ea78ea75f5d7d909c539af5d29ef61548d120cbd7490c7f6e7",
+          "titre": "Rendre imprescriptibles les crimes sexuels sur mineurs",
+          "url": "https://attalpresident.fr/programme/mesures/imprescriptibilite-crimes-sexuels-mineurs"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:34Z",
+          "html_sha256": "73bbdf0d73207262512775a100f60dcc86f5482f78d6200ef0308128c36e22ab",
+          "titre": "Dépister automatiquement les polluants éternels dans les captages d’eau potable",
+          "url": "https://attalpresident.fr/programme/mesures/depistage-pfas-captages"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:36Z",
+          "html_sha256": "a3b87a6080fa1606d69f995c0873357c075bc4a057ee18590ab1f73cbc95c5e1",
+          "titre": "Plafonner à dix-huit mois toute procédure bloquant un projet",
+          "url": "https://attalpresident.fr/programme/mesures/plafond-dix-huit-mois-procedures"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:37Z",
+          "html_sha256": "3e24778057ae74ee4a7097dfef7935fc3391d7c57b9106bd3df08ee3d95bd76a",
+          "titre": "Renforcer la PAC",
+          "url": "https://attalpresident.fr/programme/mesures/pac-moyens-renforces"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:43Z",
+          "html_sha256": "633cac5b415dcb94e6caf11a4b410dc80d97cd2c6f34276c60b67360a4e42ef1",
+          "titre": "Un barème national des sanctions scolaires",
+          "url": "https://attalpresident.fr/programme/mesures/bareme-national-sanctions"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:44Z",
+          "html_sha256": "4b76e021ee2d2fe719a05f0a9c230949aa1a0d5c0a1c8164f194a7438dd6d039",
+          "titre": "Un conseil de discipline dès l'école primaire",
+          "url": "https://attalpresident.fr/programme/mesures/conseil-discipline-primaire"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:45Z",
+          "html_sha256": "d1a74ad85851d95b591d25c0002f4eeff7f1aa796be24dccbfdd14e460dec09b",
+          "titre": "Former tous les salariés à l'IA d'ici 2030",
+          "url": "https://attalpresident.fr/programme/mesures/vingt-millions-salaries-ia"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:46Z",
+          "html_sha256": "dbfcc99ecd860ae218151ee91d44b006a020250ef9c29f987bf87ca2fc819d36",
+          "titre": "Simplifier l'extension des bâtiments d'élevage",
+          "url": "https://attalpresident.fr/programme/mesures/extension-batiments-elevage"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:48Z",
+          "html_sha256": "cd174e7bb3a5b532487d462dada50414cccd5cde9ff8a44e54551679c2de7bd0",
+          "titre": "Des aides directes ciblées plutôt que des baisses de taxes",
+          "url": "https://attalpresident.fr/programme/mesures/aides-directes-plutot-que-baisses-de-taxes"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:49Z",
+          "html_sha256": "011e5bc7c7fd734f61c268dc32ae708378e8bd55996a7eeafeb5c536234dd75f",
+          "titre": "Des fonds d'investissement dédiés aux PME de la défense",
+          "url": "https://attalpresident.fr/programme/mesures/fonds-investissement-defense"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:50Z",
+          "html_sha256": "a2727caf053355e16345a2c33ade6d28d805aa38a81cb891a142739f47208720",
+          "titre": "Aucune hausse d'impôts pendant 5 ans",
+          "url": "https://attalpresident.fr/programme/mesures/aucune-hausse-impots"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:52Z",
+          "html_sha256": "2b0b5ff12e704daad38494ea2506b80031824636bf2e6f0f0fd1a92c494dfc8d",
+          "titre": "Accélérer les délais de jugement grâce à l’IA",
+          "url": "https://attalpresident.fr/programme/mesures/ia-traitement-judiciaire"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:54Z",
+          "html_sha256": "30281df5d1f7244c2e6a2d55d38337a9b4fac64af762ea7e1d0e114afa37b676",
+          "titre": "Gens du voyage : créer un délit de maintien illicite pour les occupations illégales",
+          "url": "https://attalpresident.fr/programme/mesures/delit-maintien-illicite"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:56Z",
+          "html_sha256": "64935e31f16c33441736e96cf4276a9de001293f29bba8ada8e95c8ff8246aeb",
+          "titre": "Réduire notre dépendance énergétique",
+          "url": "https://attalpresident.fr/programme/mesures/plan-messmer-2"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:57Z",
+          "html_sha256": "a7fdb7b5bc17b5f54a3c8179e44f8bd04a3e0062c99b590e583969d59d8a4f59",
+          "titre": "Doubler les subventions à la géoénergie",
+          "url": "https://attalpresident.fr/programme/mesures/doubler-subventions-geoenergie"
+        },
+        {
+          "capture_date": "2026-11-07T22:22:59Z",
+          "html_sha256": "8fb64c9ebffbb7ef045d5d00f71ed6a39b768b8a01dcafab4953949b5c76a92e",
+          "titre": "Mener une politique européenne commune de l'intelligence artificielle",
+          "url": "https://attalpresident.fr/programme/mesures/politique-ia-europeenne-commune"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:00Z",
+          "html_sha256": "b5a1a627cc7aa1d348ede498f8a4ac02fc54653399c258faa508058faa9996d6",
+          "titre": "Faciliter les référendums locaux",
+          "url": "https://attalpresident.fr/programme/mesures/referendums-locaux-facilites"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:02Z",
+          "html_sha256": "f62840eb7b120b0eb093e765e27e2ea1eb6bbc8afe97ad359c4d7c064e0c603d",
+          "titre": "Adapter notre défense aux guerres d'aujourd'hui",
+          "url": "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:04Z",
+          "html_sha256": "1fb57ca092d3b5b0f85a47aefd2810c0b43cd87921af1cf13b618a2f78f1bb33",
+          "titre": "Instaurer un droit à la climatisation",
+          "url": "https://attalpresident.fr/programme/mesures/droit-a-la-climatisation"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:06Z",
+          "html_sha256": "49135c957e55bd4f1bb19d4a89054455453248f84f53964e4e2e17f09b0c7abe",
+          "titre": "Plan d'urgence de climatisation des établissements",
+          "url": "https://attalpresident.fr/programme/mesures/climatisation-etablissements"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:07Z",
+          "html_sha256": "80e24da55f32c9669dc848931fb3320f94f8e513bc3c91dab04d960745cc615a",
+          "titre": "200 à 500 euros nets de plus par mois pour les enseignants",
+          "url": "https://attalpresident.fr/programme/mesures/revalorisation-salaires-professeurs"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:09Z",
+          "html_sha256": "8ba61f292bbff03cc0bcb90150c5b55fabe4b93633b38e2c7901e628ca7a716e",
+          "titre": "Intégrer la maîtrise de l'IA aux savoirs fondamentaux",
+          "url": "https://attalpresident.fr/programme/mesures/ia-savoirs-fondamentaux"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:11Z",
+          "html_sha256": "abaa95107a33ce8c0a0b3bc1b5d04f41eac9df95cdd4d136e91ee298144df0b2",
+          "titre": "Une année passerelle pour les élèves en difficulté",
+          "url": "https://attalpresident.fr/programme/mesures/annee-passerelle"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:12Z",
+          "html_sha256": "db3a4ced0700185ade4a8fa8d43bfa5eab9cdc8ad2509c75db5d75e63a0d1623",
+          "titre": "Droit au brut : un treizième mois pour les classes moyennes qui travaillent",
+          "url": "https://attalpresident.fr/programme/mesures/droit-au-brut"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:13Z",
+          "html_sha256": "bc85e9543dc3f0f2249618e9c62808594f5266a67b8551a704050b0f4474ce52",
+          "titre": "Étendre l'intéressement aux petites structures",
+          "url": "https://attalpresident.fr/programme/mesures/interessement-petites-structures"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:14Z",
+          "html_sha256": "d9cc6afbd366ce60fdd804c5550933bd974e679277682125f9824e2b9548381d",
+          "titre": "Des clauses miroir dans tous les accords commerciaux",
+          "url": "https://attalpresident.fr/programme/mesures/clauses-miroir-systematiques"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:16Z",
+          "html_sha256": "1c671fa70fc59a11d466132cb3eb9c3b49ebde42d49a802fb53cd537cb4a4165",
+          "titre": "Rendre obligatoire la contractualisation pluriannuelle",
+          "url": "https://attalpresident.fr/programme/mesures/contractualisation-pluriannuelle"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:17Z",
+          "html_sha256": "3b83d86bbd0552ee236546b76789d3d2b53a6d3f711d56dc2d973553dc3205d7",
+          "titre": "Cent mille postes en moins dans l'État et les collectivités",
+          "url": "https://attalpresident.fr/programme/mesures/cent-mille-postes-en-moins"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:18Z",
+          "html_sha256": "4ce07e449caca3146ea5418a82f979a0e756e51bb803f3363e4d43f3477a45ea",
+          "titre": "Interconnecter les fichiers police, justice et Éducation",
+          "url": "https://attalpresident.fr/programme/mesures/interconnecter-fichiers"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:20Z",
+          "html_sha256": "3c06475b6d23f333025a966549974d9ccb0bd08d0dc7f79ca4b73b21c44937c8",
+          "titre": "Créer un parquet national dédié à la lutte contre la pédocriminalité",
+          "url": "https://attalpresident.fr/programme/mesures/parquet-national-pedocriminalite"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:26Z",
+          "html_sha256": "5007002eea9fd8124647dbaf72601ef0fe2388f88ba55fe762dfff032cae8e57",
+          "titre": "Étendre l'attestation d'honorabilité à tout métier en contact avec des mineurs",
+          "url": "https://attalpresident.fr/programme/mesures/attestation-honorabilite-mineurs"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:28Z",
+          "html_sha256": "49e22d93a9ec82d4669d0a45ab052ae04ea62c409ffc07cd536eda2431a03334",
+          "titre": "Défiscaliser les pensions alimentaires",
+          "url": "https://attalpresident.fr/programme/mesures/defiscaliser-pensions-alimentaires"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:29Z",
+          "html_sha256": "c65e7f60433365b561d01eccab95931564c2b9c0c928358b32fa9d2a1d18f67e",
+          "titre": "Instaurer un système à points pour l’immigration",
+          "url": "https://attalpresident.fr/programme/mesures/immigration-systeme-a-points"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:30Z",
+          "html_sha256": "8680b1572a19c594dcf9d55dfdb41bf33218dab96a1a881c1af2be25bdea0575",
+          "titre": "Encadrer les ventes d'animaux en ligne",
+          "url": "https://attalpresident.fr/programme/mesures/encadrer-ventes-animaux-en-ligne"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:32Z",
+          "html_sha256": "c64f6dc8fd59dd75d374f6df189360c4becd4e68dc7953b698719854ccf528cb",
+          "titre": "Créer un ministère de l'Eau pour centraliser la gestion de l’eau par la création d’un “ministère de l’eau”",
+          "url": "https://attalpresident.fr/programme/mesures/ministere-de-l-eau"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:34Z",
+          "html_sha256": "b89ea0eefdc89c9711f3db3790d530f85e458ac14c4ce0bb9e9796a4278b681c",
+          "titre": "Multiplier par cinq les capacités de production en géoénergie d’ici 2035",
+          "url": "https://attalpresident.fr/programme/mesures/quintupler-capacites-geoenergie"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:35Z",
+          "html_sha256": "d537d4adf78d91a3e3941155e8352da4ffeb01f29594f0c691dc443087fd09f8",
+          "titre": "Multiplier par sept la puissance de calcul européenne pour la porter à vingt pour cent du niveau mondial",
+          "url": "https://attalpresident.fr/programme/mesures/puissance-de-calcul-europeenne"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:37Z",
+          "html_sha256": "dee39ff50e172ed2afe49719608e4016c4a5675de95d56b28bf2304af4e7144d",
+          "titre": "Réformer les nominations aux hautes fonctions de l'État",
+          "url": "https://attalpresident.fr/programme/mesures/reforme-nominations-hautes-fonctions"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:38Z",
+          "html_sha256": "2ee0cd40e19f8b2e6c100f7fafb1d8b1ab3c56737dfc8a662bd5856a9b537c00",
+          "titre": "Auditer les programmes d'armement",
+          "url": "https://attalpresident.fr/programme/mesures/audit-programmes-armement"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:40Z",
+          "html_sha256": "0c459e0dd99d5ac775fc51c4cd010e626d74495ba727932b95369102eb7aabbe",
+          "titre": "Rétablir un certificat d'études en fin de CM2",
+          "url": "https://attalpresident.fr/programme/mesures/certificat-etudes-cm2"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:41Z",
+          "html_sha256": "46e0c06bb4d56cda3ab7be0d7d53f8d5fdf35a5ed55c905fe98bf596f89dc810",
+          "titre": "Rétablir les groupes de niveau au collège",
+          "url": "https://attalpresident.fr/programme/mesures/groupes-de-niveau-college"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:42Z",
+          "html_sha256": "8306ded33fb726f8b8796d384cdbdc1135844c321d6d00af7d282722f242d741",
+          "titre": "Un seul ministre de l'Éducation pendant cinq ans",
+          "url": "https://attalpresident.fr/programme/mesures/un-seul-ministre-education"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:43Z",
+          "html_sha256": "3dfdfe17afcd17b0806b65b64ba92f1de111dfb1572f20cdfa2aeae44940a896",
+          "titre": "Un statut Auto-TPE pour embaucher son premier salarié",
+          "url": "https://attalpresident.fr/programme/mesures/statut-auto-tpe"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:44Z",
+          "html_sha256": "475015fd58044c5bafbbc0f437c020df4178c7977d5793565b609789c18fa7f9",
+          "titre": "Flécher la moitié de l'intéressement vers l'épargne retraite",
+          "url": "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:46Z",
+          "html_sha256": "eb5592f7da644bf18c3ec22001ad7542d8ecf6b5662dedcf4f77a1b609956e12",
+          "titre": "Optimiser la fiscalité du portage du foncier agricole",
+          "url": "https://attalpresident.fr/programme/mesures/fiscalite-portage-foncier"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:47Z",
+          "html_sha256": "467d6525258779aa664aaa2068ce94084473096f1dfb399ef12b441322a6d0b2",
+          "titre": "Des prix planchers indexés sur les coûts de production",
+          "url": "https://attalpresident.fr/programme/mesures/prix-planchers-agricoles"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:49Z",
+          "html_sha256": "7f2682f2e3890e5d7031f3adaf2b1a01169e884c237b8670ab6a9cf05b1029d7",
+          "titre": "Ramener le déficit sous 3% avant 2032",
+          "url": "https://attalpresident.fr/programme/mesures/deficit-sous-trois-pour-cent"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:50Z",
+          "html_sha256": "ba9e090aade22c64652372a1dca7f90b81411d91d3c25f473c9d4d79d1ebc97f",
+          "titre": "Équilibrer les comptes de la Sécurité sociale",
+          "url": "https://attalpresident.fr/programme/mesures/equilibre-securite-sociale"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:52Z",
+          "html_sha256": "1a8e64195f2efa3be18b0f3b8329ff72844925e6940eb82d16fbed5b02db4157",
+          "titre": "Instaurer la perpétuité réelle pour les prédateurs sexuels en série",
+          "url": "https://attalpresident.fr/programme/mesures/perpetuite-reelle-predateurs"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:53Z",
+          "html_sha256": "dca8a2389da1ce9dde53597473157f040092a6aa8bc4bdc64d339b13e69716b3",
+          "titre": "Garantir les premiers actes d'enquête sous quarante-huit heures pour les crimes sur mineurs",
+          "url": "https://attalpresident.fr/programme/mesures/premiers-actes-quarante-huit-heures"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:54Z",
+          "html_sha256": "dbd87e5f31d03f714df18434d36db99eb45550ff28a1d0c8eed51563477c9dca",
+          "titre": "Juger les crimes sur mineurs en moins de trois mois",
+          "url": "https://attalpresident.fr/programme/mesures/procedures-mineurs-trois-mois"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:55Z",
+          "html_sha256": "3d238895e16432592cf360cbd3cd7b7d39a328a1ad9a36c30280187066e7d67c",
+          "titre": "Imposer un dossier administratif par convoi de caravanes",
+          "url": "https://attalpresident.fr/programme/mesures/dossier-administratif-par-convoi"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:56Z",
+          "html_sha256": "e5edb186bae256f18d9208b4f401bf78fcaa1f38029550cc74dc6bf22daa4156",
+          "titre": "Créer un droit au répit pour les parents seuls",
+          "url": "https://attalpresident.fr/programme/mesures/droit-au-repit"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:57Z",
+          "html_sha256": "f2d511ac338fe043af7fabf7680f6a3d2cea0c2b72e4bb2f78d1ea7a98bde79f",
+          "titre": "Un plan Eau sans impôts nouveaux",
+          "url": "https://attalpresident.fr/programme/mesures/plan-eau-a-euro-constant"
+        },
+        {
+          "capture_date": "2026-11-07T22:23:59Z",
+          "html_sha256": "aac8c267127df2c36258624aa5f86cf47fa349bde66ef1ec73300e39f4c49696",
+          "titre": "Répondre à toute demande de subvention pour la géoénergie en moins de 90 jours",
+          "url": "https://attalpresident.fr/programme/mesures/reponse-subvention-quatre-vingt-dix-jours"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:00Z",
+          "html_sha256": "131bc7049917e0950790968490d7c7eae53eb99b72f3ef654c6acfcfc78eea83",
+          "titre": "Simplifier les règles des forages géothermiques",
+          "url": "https://attalpresident.fr/programme/mesures/simplifier-forages-geothermiques"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:01Z",
+          "html_sha256": "c15bcec7e2a97bda00013338342fd7c1098b752e2b59ba65ff28d0965e666a74",
+          "titre": "Renforcer la souveraineté européenne sur les équipements militaires",
+          "url": "https://attalpresident.fr/programme/mesures/diviser-par-deux-dependance-militaire"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:03Z",
+          "html_sha256": "42c0b5508ce336267304dce06d17a7a9c3dc017807b33477119c01dada1aa112",
+          "titre": "Un assistant médical IA pour chaque Français",
+          "url": "https://attalpresident.fr/programme/mesures/assistant-medical-ia"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:04Z",
+          "html_sha256": "b99703b3b2371d5f06d0484018550ee5fce470eae22bee772e6b421eda689a69",
+          "titre": "Le brevet obligatoire pour entrer au lycée",
+          "url": "https://attalpresident.fr/programme/mesures/brevet-obligatoire-entree-lycee"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:10Z",
+          "html_sha256": "d77778a9710fd786f0268389bf6693e9335a420fe5a2f3960ffd51edd6e0f291",
+          "titre": "Former 100 % des enseignants à l'intelligence artificielle",
+          "url": "https://attalpresident.fr/programme/mesures/former-tous-enseignants-ia"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:12Z",
+          "html_sha256": "459b47826fce0deffac84659922b782fe00d84001cc19b3321f04619b2d33d5a",
+          "titre": "Un tuteur numérique souverain et gratuit pour chaque élève",
+          "url": "https://attalpresident.fr/programme/mesures/tuteur-numerique-souverain"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:13Z",
+          "html_sha256": "1c3389da9558045916cf2b2f035a37199081284c46eec655e4d9e62082249951",
+          "titre": "Remplacer le Code du travail par une Constitution du travail",
+          "url": "https://attalpresident.fr/programme/mesures/constitution-du-travail"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:15Z",
+          "html_sha256": "d767bc9d32394b005ae16f1ea59e80dd0039ec7383fe6ded8700296420bcbd18",
+          "titre": "Refuser le traité Mercosur",
+          "url": "https://attalpresident.fr/programme/mesures/refuser-mercosur"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:16Z",
+          "html_sha256": "c0d18bfce1b14a906c06d0497331d437b4222d242a8340c53a0876e2931e7955",
+          "titre": "Refondre la commande publique pour les PME de défense",
+          "url": "https://attalpresident.fr/programme/mesures/commande-publique-defense"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:18Z",
+          "html_sha256": "5488d51a6151c8ee29d44d230e067d43468f51cb8f6ccf86062298514c460cc6",
+          "titre": "Réformer l'assurance chômage et réaliser cinq milliards d'économies",
+          "url": "https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:20Z",
+          "html_sha256": "1fca7500863882a4c1b641b2d70d01927172f370e56d8ccf4606d05e9d34019a",
+          "titre": "Créer un service de renseignement dédié pour détecter les réseaux pédocriminels",
+          "url": "https://attalpresident.fr/programme/mesures/renseignement-ofmin"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:21Z",
+          "html_sha256": "53fd1517e2cc08110428377460364dbf8fcf02f0773a6c5268aaaa69c9dc8b62",
+          "titre": "Recruter 3 000 magistrats et greffiers pour raccourcir les délais de jugement",
+          "url": "https://attalpresident.fr/programme/mesures/trois-mille-magistrats-greffiers"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:23Z",
+          "html_sha256": "663b6ecbdac9b4681852de3a7fdcfd3efed722db51ae9b986e963e23c28cc868",
+          "titre": "Facturer systématiquement toute occupation illégale de terrain par les gens du voyage au tarif minimum d'un camping",
+          "url": "https://attalpresident.fr/programme/mesures/facturation-tarif-camping"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:24Z",
+          "html_sha256": "47028f021c5e45e46640409b044f8b1cad792a8dc6c0d607931f8785d441a809",
+          "titre": "Simplifier le parcours de séparation grâce à la CAF",
+          "url": "https://attalpresident.fr/programme/mesures/parcours-separation-simplifie"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:26Z",
+          "html_sha256": "f6737981ec8c3c2b67f4fa190904596e326989712e067584ad77d3370db193af",
+          "titre": "Définir des quotas migratoires révisés tous les deux ans",
+          "url": "https://attalpresident.fr/programme/mesures/quotas-migratoires-revises"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:27Z",
+          "html_sha256": "8c04ea8552d8bfa1da12aa656066daaba081b253058b5ffd4b707c854db8cee7",
+          "titre": "Créer un fichier national recensant les personnes interdites de détenir un animal",
+          "url": "https://attalpresident.fr/programme/mesures/fichier-interdits-de-detention"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:29Z",
+          "html_sha256": "14932be6e162b7d6d289ee8c3303aff51d0eed8c2edf55a71b8f0b63b14dd42c",
+          "titre": "Réparer les cinq cents réseaux d'eau les plus vétustes",
+          "url": "https://attalpresident.fr/programme/mesures/reparer-cinq-cents-reseaux-eau"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:30Z",
+          "html_sha256": "02860abde971182e3ac6c3b5aa9d3e40393aa62fc34e8f91143915ac89b63735",
+          "titre": "Développer la recherche sur la fusion nucléaire au niveau européen",
+          "url": "https://attalpresident.fr/programme/mesures/fusion-nucleaire-europe"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:31Z",
+          "html_sha256": "62e3a7348f7f19aaefb80c3b2eab960366714bf5d82250bd245817cd671eeeb2",
+          "titre": "Limiter à deux mois maximum le délai pour répondre à un porteur de projet",
+          "url": "https://attalpresident.fr/programme/mesures/delai-deux-mois-porteurs-projets"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:32Z",
+          "html_sha256": "f87ec0baa2aa4e73d1df007d2f3dea4e55b3d4e19f67b9439169b820af7faf89",
+          "titre": "Faire du maire l'élu le plus puissant de France",
+          "url": "https://attalpresident.fr/programme/mesures/maire-elu-le-plus-puissant"
+        },
+        {
+          "capture_date": "2026-11-07T22:24:34Z",
+          "html_sha256": "6bd0f8f766706051c34419bcf1752923bf75ad83a88ef8374585f01d9b4ee7af",
+          "titre": "Créer un dôme de fer européen contre les missiles et les drones",
+          "url": "https://attalpresident.fr/programme/mesures/dome-de-fer-europeen"
+        }
+      ],
+      "capture_date": "2026-11-07T22:24:34Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : texte relevé dans le navigateur, empreinte SHA-256 du HTML de chaque page conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "ede5d9bf4c8f2efc21d43365e5abd94da46b8582964e15c68d17cccab4750964",
+      "pages": 107,
+      "mots": 36065,
+      "extraction": "innerText via navigateur intégré (page hub) et fetch + DOMParser inséré hors écran (autres pages)",
+      "extraction_note": "Programme en cours de constitution : le site ne publie pas encore de programme complet mais des « chantiers capitaux » et « les premières mesures annoncées » (« 96 mesures » au 7 novembre 2026). Le site présente le programme comme évolutif et ouvert à une consultation citoyenne : page d’accueil « Contribuez À MON PROGRAMME » et « Consulter MES PROPOSITIONS », formulaire d’inscription « Les mesures au fil de leur annonce, et le programme dès sa sortie », lien « Consultation » du pied de page renvoyant vers un formulaire tally.so intitulé « Quatre chantiers capitaux » : « Gabriel Attal vous consulte sur quatre chantiers capitaux : l'école, nos frontières, les salaires et l'intelligence artificielle. Vos réponses nourriront directement le projet. » Pages archivées dans l’ordre du site : 1) hub « Mes chantiers capitaux » (https://attalpresident.fr/programme), chargé dans le navigateur intégré, bandeau cookies refusé, bouton « Charger plus de mesures » cliqué jusqu’à épuisement (« 96 sur 96 ») avant relevé de l’innerText ; 2) les 6 pages de chantiers capitaux et dettes à résorber (education, travail-salaires, frontieres, intelligence-artificielle, dette-de-letat, dette-ecologique) ; 3) les 4 pages thématiques /programme/thematiques/ (sante, defense, simplification, agriculture) ; 4) les 96 mesures /programme/mesures/<slug>, dans l’ordre d’affichage du hub. Méthode pour les pages 2 à 4 : depuis la page hub ouverte dans le navigateur intégré, chaque URL a été récupérée par fetch() (même origine), analysée par DOMParser, son élément <main> inséré hors écran dans le document courant pour en relever l’innerText (vérifié identique à l’innerText de la page réellement chargée sur /programme/education) ; empreinte SHA-256 du HTML tel que servi. Contenu retenu sur chaque page : enfants directs de <main> hors <nav> (barre de navigation), <footer>, <script> (JSON-LD) et sections d’appel à rejoindre la campagne ou à la newsletter (section#nous-rejoindre, section#rejoindre-app). Conservés tels quels : chapeaux, dates et sources d’annonce des mesures (ex. « 25 août 2026 · Dans Le Monde »), libellés de thématique, encadrés « Grâce à cette mesure », « Dans les actualités », « Autres mesures », « Les mesures déjà annoncées », « Mes chantiers capitaux » et « Nos mesures pour » (listes de titres servant de navigation interne), libellés de boutons (« Découvrir le chantier capital », « Toutes les mesures annoncées »…). Titres de séparateur (=== … ===) : <h1> de chaque page tel que rendu (les titres de chantiers et de thématiques apparaissent en capitales par CSS text-transform). Non archivées : pages « Nos mesures, public par public » (/programme/publics et ses 11 sous-pages, regroupements des mêmes mesures), page Gabriel Attal, actualités, équipe (voir documents_a_recuperer). Fidélité vérifiée : SHA-256 du texte assemblé côté navigateur identique à celui du fichier écrit.",
+      "documents_a_recuperer": [
+        {
+          "url": "https://attalpresident.fr/programme/publics",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme",
+          "note": "index « Nos mesures, public par public » : regroupement des mesures déjà annoncées par public cible ; non archivé dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/agriculteurs",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/enseignants",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/salaries",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/artisans-commercants-entrepreneurs",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/retraites",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/habitants-des-zones-rurales",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/cadres-et-classes-moyennes",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/fonctionnaires",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/familles-monoparentales",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/parents",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://attalpresident.fr/programme/publics/jeunes-et-etudiants",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/programme/publics",
+          "note": "page « Nos mesures pour … » : regroupement par public des mesures déjà archivées ; non archivée dans programme-v1"
+        },
+        {
+          "url": "https://tally.so/r/aQz6Q9",
+          "format": "web",
+          "type": "complement",
+          "page_source": "https://attalpresident.fr/consultation",
+          "note": "formulaire de consultation « Quatre chantiers capitaux » (lien « Consultation » du pied de page, redirection vers tally.so) ; non archivé"
+        }
+      ],
+      "remplace": null
+    }
+  ]
+}
