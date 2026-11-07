@@ -1,0 +1,171 @@
+{
+  "slug": "ruffin-francois",
+  "nom": "François Ruffin",
+  "mouvement": "Debout !",
+  "site_officiel": "https://nouspresident.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://nouspresident.fr/",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Notre programme",
+      "source_url": "https://nouspresident.fr/notre-programme/",
+      "pages_sources": [
+        {
+          "url": "https://nouspresident.fr/notre-programme/",
+          "titre": "Notre programme",
+          "html_sha256": "e4d9d42d7d624c4c6f8a8c09f082963f3470df1d18f9944e5b5c83fea845e38b",
+          "capture_date": "2026-11-07T21:45:56Z"
+        },
+        {
+          "url": "https://nouspresident.fr/statut-travailleurs-essentiels/",
+          "titre": "Pour un statut des travailleuses et travailleurs essentiels",
+          "html_sha256": "e668b218f8be4d0206c8db5b1058c34316c1508f0a471d1ddf9d3e3ccd8d1623",
+          "capture_date": "2026-11-07T21:47:15Z"
+        },
+        {
+          "url": "https://nouspresident.fr/separation-argent-etat/",
+          "titre": "Pour une séparation de l’argent et de l’État",
+          "html_sha256": "610a17412a55b88fb0d5b789cb0a54e1d9b2b5e7427f48256c07ab8e60e9eb97",
+          "capture_date": "2026-11-07T21:47:35Z"
+        },
+        {
+          "url": "https://nouspresident.fr/temps-loisirs/",
+          "titre": "Pour renouer avec le temps des loisirs",
+          "html_sha256": "a8ca3888bcc7cc4a74e506daac66d155223362b9485df615caef0a22cfbd4d23",
+          "capture_date": "2026-11-07T21:47:53Z"
+        },
+        {
+          "url": "https://nouspresident.fr/pour-une-exception-agriculturelle-francaise/",
+          "titre": "POUR UNE EXCEPTION AGRICULTURELLE FRANÇAISE",
+          "html_sha256": "cbc629baa40549b32a2210c84a08672a949b331ce2da03887b5cb7ba635d1667",
+          "capture_date": "2026-11-07T21:48:15Z"
+        },
+        {
+          "url": "https://nouspresident.fr/travaillisme-ecologique/",
+          "titre": "Face au chantier du siècle : Pour un travaillisme écologique",
+          "html_sha256": "fcd9c087b2360cb3867ae0cf2c5e18ab26be41dcf7f2e5cd32bf3bf304d90cb2",
+          "capture_date": "2026-11-07T21:48:35Z"
+        },
+        {
+          "url": "https://nouspresident.fr/face-a-la-crise-du-logement/",
+          "titre": "Face à la crise du logement : FAIRE SAUTER LE VERROU",
+          "html_sha256": "854b3377646fcc2446dd1baba5c1ac0dac1f5d4db1495fbe9f374813676d85dc",
+          "capture_date": "2026-11-07T21:48:55Z"
+        },
+        {
+          "url": "https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/",
+          "titre": "Pour protéger notre industrie, relocaliser 100 produits stratégiques",
+          "html_sha256": "38a44e789029a3f7dba75d9de2ebdf3c1060183cd8086ae8c38526977f53b3bc",
+          "capture_date": "2026-11-07T21:49:15Z"
+        },
+        {
+          "url": "https://nouspresident.fr/education-une-ecole-de-tous-les-savoirs/",
+          "titre": "éducation : une école de tous les savoirs",
+          "html_sha256": "e58f54ed68826acdf7fd5e00574fd0ab7a4fb02be42247117f6d6cab4ad8f63a",
+          "capture_date": "2026-11-07T21:49:35Z"
+        },
+        {
+          "url": "https://nouspresident.fr/plan-data-centers/",
+          "titre": "Plan DATA CENTERS",
+          "html_sha256": "cffdb40e03ec3757bc39b2f8fc59318b4b461beae1488cc03cb699d31753d0b3",
+          "capture_date": "2026-11-07T21:53:39Z"
+        },
+        {
+          "url": "https://nouspresident.fr/plan-urgence-climat/",
+          "titre": "PLAN URGENCE CLIMAT",
+          "html_sha256": "1f8cdc7721e753165d42139668fb34482c90abb83ed1b1b5069c39887602670e",
+          "capture_date": "2026-11-07T21:54:00Z"
+        },
+        {
+          "url": "https://nouspresident.fr/plan-de-redressement/",
+          "titre": "Plan de redressement",
+          "html_sha256": "2fb91fe7763fd6d6bcdf7d1dda346d345e073d554550dd184ce898b4f323fcaf",
+          "capture_date": "2026-11-07T21:54:19Z"
+        }
+      ],
+      "capture_date": "2026-11-07T21:55:31Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : texte relevé dans le navigateur, empreinte SHA-256 du HTML de chaque page conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "b2ce921667d50ec61cafee91799d9b78d250434e33717c09aea341460b477d12",
+      "pages": 12,
+      "mots": 100703,
+      "extraction": "innerText via navigateur intégré",
+      "extraction_note": "page index « Notre programme » : contenu de <main> moins le bloc « Partagez l'article ! » (boutons de partage) ; cahiers de campagne et plans d'action : titre H1 (.wp-block-post-title) + bloc .entry-content ; exclus : en-tête, pied de page, bloc « Partagez le livret » et bouton « Télécharger le livret ». Les URL des cahiers et des plans ont été relevées sur les pages d'index https://nouspresident.fr/cahiers-de-campagne/ et https://nouspresident.fr/nos-plans-daction/ (le lien du cahier 6 redirige vers /face-a-la-crise-du-logement/). Les titres en capitales reflètent le rendu CSS (text-transform) tel que restitué par innerText.",
+      "documents_a_recuperer": [
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/04/Debout-Livret-Campagne_Web.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/statut-travailleurs-essentiels/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/07/Debout-Livret-Probite-Web-1.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/separation-argent-etat/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/09/Debout-Livret-Campagne-Loisirs-vdef-Web-1.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/temps-loisirs/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/10/Debout-Livret-Campagne-Agriculture-vWeb.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/pour-une-exception-agriculturelle-francaise/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/09/Livret-Campagne-5-Travaillisme-Ecologique-VDEF.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/travaillisme-ecologique/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/09/CC_Logement.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/face-a-la-crise-du-logement/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/10/Debout-Livret-Campagne-7-Industrie-Vweb.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/10/Debout-Livret-Campagne-8-Education.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/education-une-ecole-de-tous-les-savoirs/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/10/PA_Data_CENTERS_V2.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/plan-data-centers/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/10/PA_Urgence_Climat_VF.pdf.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/plan-urgence-climat/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        },
+        {
+          "url": "https://nouspresident.fr/wp-content/uploads/2026/10/Plan-de-redressement-2026-mise-en-page.pdf",
+          "format": "pdf",
+          "page_source": "https://nouspresident.fr/plan-de-redressement/",
+          "note": "livret PDF téléchargeable depuis la page (lien « Télécharger le livret ») ; à télécharger manuellement"
+        }
+      ],
+      "remplace": null
+    }
+  ]
+}

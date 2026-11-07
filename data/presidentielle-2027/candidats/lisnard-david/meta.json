@@ -1,0 +1,115 @@
+{
+  "slug": "lisnard-david",
+  "nom": "David Lisnard",
+  "mouvement": "Nouvelle Énergie",
+  "site_officiel": "https://www.lisnard2027.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://www.lisnard2027.fr/",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Le programme de Nouvelle Énergie pour 2027",
+      "source_url": "https://www.unenouvelleenergie.fr/notre-programme/",
+      "pages_sources": [
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/",
+          "titre": "Le programme de Nouvelle Énergie pour 2027",
+          "html_sha256": "89908e035738e3c18aedc07064b509b74ef08ab5bd424acdce4852f35c53d0d7",
+          "capture_date": "2026-11-07T21:57:08Z"
+        },
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/",
+          "titre": "Être maître de notre destin",
+          "html_sha256": "27de3acf11d3fadfd4618e73a8aaba148c3d8f289fbbcdfe7cc9edb5cb680a0c",
+          "capture_date": "2026-11-07T21:57:44Z"
+        },
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/",
+          "titre": "Réussir une nouvelle ambition française",
+          "html_sha256": "48d423fe44c2f4eec5640873ca1446a34e91f292ce459004a48124c0297a19dd",
+          "capture_date": "2026-11-07T21:58:03Z"
+        },
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/",
+          "titre": "Générer un renouveau civique",
+          "html_sha256": "18b69f3e3fe38efafcb1d083da7d627c98113f259c4af45fdf2bc8f8a5f48a3c",
+          "capture_date": "2026-11-07T21:58:21Z"
+        },
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/education/",
+          "titre": "Éducation",
+          "html_sha256": "bd388663d676126a10dafb15aef1afd83b6d1dab545e6d2a66dc7ecd8819995d",
+          "capture_date": "2026-11-07T21:58:46Z"
+        },
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/securite/",
+          "titre": "Sécurité",
+          "html_sha256": "e1bd77ff20004e0d454f86abe91c0f374db32654be069c1c38f407a374f75d33",
+          "capture_date": "2026-11-07T21:59:04Z"
+        },
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/sante/",
+          "titre": "Santé",
+          "html_sha256": "8a262f1101e86fb0dc33a6ae5fe03f2edde6eafc7be0170fe3244260a08e5d38",
+          "capture_date": "2026-11-07T21:59:23Z"
+        },
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/agriculture/",
+          "titre": "Agriculture",
+          "html_sha256": "3a76d3a53ca8b5d7018c089693a0f365d7345248efe6aa0121ecf07b175f86aa",
+          "capture_date": "2026-11-07T21:59:49Z"
+        },
+        {
+          "url": "https://www.unenouvelleenergie.fr/notre-programme/immigration/",
+          "titre": "Immigration",
+          "html_sha256": "a29080dd6aa824ca1eea82cef32876294bc70f90cf828f13e0baa3c7f9927e44",
+          "capture_date": "2026-11-07T22:00:07Z"
+        }
+      ],
+      "capture_date": "2026-11-07T22:00:38Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : texte relevé dans le navigateur, empreinte SHA-256 du HTML de chaque page conservée (le HTML du hub contient des éléments dynamiques, compteur d'adhérents notamment ; l'empreinte correspond à la réponse obtenue au moment de la capture)",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "78fcb33e993afc0a9f7ae3cca00f35e15e503b697a92a61d00db9fe540c5cc1e",
+      "pages": 9,
+      "mots": 12836,
+      "extraction": "innerText via navigateur intégré",
+      "extraction_note": "hub « Notre programme » : bandeau titre, intertitre « Propositions pour la refondation… », les trois blocs d'axes (titre, texte, citation) et les listes « Découvrez notre programme par thématiques » / « Découvrez nos carnets thématiques » ; exclus : boutons « J'adhère », « Lire le programme », « En savoir plus », « Découvrir », « Vous partagez ce projet ? », compteur d'adhérents, flèches de carrousel, blocs Grands discours / FAQ / Adhérer / Rencontrons-nous / Une question. Pages d'axes : titre de page + sections de contenu (div.space-y-16, H2 + texte), sommaire de navigation exclu. Pages thématiques : titre de page + bloc de contenu principal. Exclus partout : en-tête, pied de page, bloc « Vous partagez ces propositions ? / J'ADHÈRE », bloc « document / Prévisualiser / Télécharger » et section « Les questions qu'on nous pose sur ce thème ». Les titres en capitales reflètent le rendu CSS (text-transform) tel que restitué par innerText. Le site de campagne lisnard2027.fr est une page d'attente qui renvoie vers unenouvelleenergie.fr.",
+      "documents_a_recuperer": [
+        {
+          "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/05/Livret-Sante-Nouvelle-Energie.pdf",
+          "format": "pdf",
+          "titre": "Santé (carnet thématique)",
+          "pages_source": [
+            "https://www.unenouvelleenergie.fr/notre-programme/",
+            "https://www.unenouvelleenergie.fr/notre-programme/sante/"
+          ],
+          "note": "à télécharger manuellement"
+        },
+        {
+          "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/06/AGRICULTURE.pdf",
+          "format": "pdf",
+          "titre": "Agriculture (carnet thématique, lien du hub)",
+          "pages_source": [
+            "https://www.unenouvelleenergie.fr/notre-programme/"
+          ],
+          "note": "à télécharger manuellement"
+        },
+        {
+          "url": "https://nouvelle-energie-media-prod.s3.fr-par.scw.cloud/media/legacy/2026/02/livret-agriculture.pdf",
+          "format": "pdf",
+          "titre": "Agriculture (livret, lien de la page thématique)",
+          "pages_source": [
+            "https://www.unenouvelleenergie.fr/notre-programme/agriculture/"
+          ],
+          "note": "à télécharger manuellement ; URL différente de celle du hub, vérifier s'il s'agit du même document"
+        }
+      ],
+      "remplace": null
+    }
+  ]
+}

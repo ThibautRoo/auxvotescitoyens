@@ -1,0 +1,37 @@
+{
+  "slug": "legendre-jean-francois",
+  "nom": "Jean-François Legendre",
+  "mouvement": "À nous maintenant",
+  "site_officiel": "https://sites.google.com/view/anousmaintenant",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://sites.google.com/view/anousmaintenant",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "64 % - vers une alternative citoyenne en France",
+      "source_url": "https://docs.google.com/document/d/1G4dUZaI20umZghEgSgRGCQeiWDJ2fiwhLZvtUK7hofc/edit",
+      "pages_sources": [
+        {
+          "url": "https://docs.google.com/document/d/1G4dUZaI20umZghEgSgRGCQeiWDJ2fiwhLZvtUK7hofc/export?format=txt",
+          "titre": "64% (export texte du Google Doc)",
+          "html_sha256": "cff70985783f59e06681b609f456806cc4252c93e971147768dc7e3094859e69",
+          "capture_date": "2026-11-07T22:01:46Z"
+        }
+      ],
+      "capture_date": "2026-11-07T22:02:13Z",
+      "format": "web",
+      "fichier_original": "original/programme-v1-export.txt",
+      "original_note": "export texte brut (format=txt) du Google Doc public, octets conservés tels quels",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": "cff70985783f59e06681b609f456806cc4252c93e971147768dc7e3094859e69",
+      "sha256_texte": "28c3712acebf5ca9d08e5b4659a48e33d22f4f6d1554b168801b87d7fa29f4b8",
+      "pages": 1,
+      "mots": 9204,
+      "extraction": "export texte Google Docs (export?format=txt) via navigateur intégré",
+      "extraction_note": "texte intégral de l'export, sans aucune modification de contenu ; seules normalisations : suppression du BOM UTF-8 et conversion des fins de ligne CRLF en LF. Le document est intitulé « 64% » dans Google Docs et présenté sur le site comme le « manifeste fondateur du mouvement ». Date de déclaration non indiquée sur le site (il indique seulement que Jean-François Legendre « propose sa candidature au nom du mouvement »).",
+      "remplace": null
+    }
+  ]
+}
