@@ -1,0 +1,29 @@
+{
+  "slug": "philippot-florian",
+  "nom": "Florian Philippot",
+  "mouvement": "Les Patriotes",
+  "site_officiel": "https://les-patriotes.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://les-patriotes.fr/soutien2027/",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Grandes orientations pour un projet patriote, édition 2026-2027",
+      "source_url": "https://les-patriotes.fr/wp-content/uploads/2026/09/Projet-pour-la-France-2026-v2.pdf",
+      "page_source": "https://les-patriotes.fr/projetpourlafrance/",
+      "capture_date": "2026-11-07T21:34:32Z",
+      "format": "pdf",
+      "fichier_original": "original/programme-v1.pdf",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": "90d0748445644a433b594864cf553a03245739e07cb65672f01c1c0b49be6f83",
+      "sha256_texte": "e82e964d624745f8f63a5a815200ea23ae3107ad44384251bb8b011aa0b5f635",
+      "verification": "empreinte recalculée indépendamment depuis l'URL source via le navigateur, identique",
+      "pages": 19,
+      "mots": 11734,
+      "extraction": "pdftotext -layout",
+      "remplace": null
+    }
+  ]
+}

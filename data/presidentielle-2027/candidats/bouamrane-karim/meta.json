@@ -1,0 +1,29 @@
+{
+  "slug": "bouamrane-karim",
+  "nom": "Karim Bouamrane",
+  "mouvement": null,
+  "site_officiel": "https://www.karimbouamrane2027.org",
+  "statut": "declare",
+  "declaration_date": "2026-06-09",
+  "declaration_source": "https://www.karimbouamrane2027.org",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "manifeste",
+      "titre": "Le manifeste de Karim Bouamrane",
+      "source_url": "https://www.karimbouamrane2027.org/output/pdf/manifeste-karim-bouamrane-2027-v2.pdf",
+      "page_source": "https://www.karimbouamrane2027.org/manifeste.html",
+      "capture_date": "2026-11-07T21:34:32Z",
+      "format": "pdf",
+      "fichier_original": "original/programme-v1.pdf",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": "4cdd196fb04925ee78f15cca34a2f446cf80afc20841f9078f16b8764b6f9a2f",
+      "sha256_texte": "189af6426c4f01d0e4a5338e1e022610abe2005c2fa4d9e6cc833464d748f5cf",
+      "verification": "empreinte recalculée indépendamment depuis l'URL source via le navigateur, identique",
+      "pages": 8,
+      "mots": 1995,
+      "extraction": "pdftotext -layout",
+      "remplace": null
+    }
+  ]
+}

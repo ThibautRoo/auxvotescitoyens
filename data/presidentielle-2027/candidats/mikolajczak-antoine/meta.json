@@ -1,0 +1,29 @@
+{
+  "slug": "mikolajczak-antoine",
+  "nom": "Antoine Mikolajczak",
+  "mouvement": "Équinoxe",
+  "site_officiel": "https://parti-equinoxe.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://parti-equinoxe.fr/qui-est-antoine-mikolajczak/",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Équinoxe – L'essentiel : programme synthétique pour l'élection présidentielle",
+      "source_url": "https://parti-equinoxe.fr/wp-content/uploads/2026/11/Equinoxe-Lessentiel-Programme-synthetique-pour-lelection-presidentielle-1.pdf",
+      "page_source": "https://parti-equinoxe.fr/programme-2027/",
+      "capture_date": "2026-11-07T21:34:32Z",
+      "format": "pdf",
+      "fichier_original": "original/programme-v1.pdf",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": "2775b5ffa0eaf8764950ba0a4498ecf2dd6b80d2b978ff26dc77971bb07d7414",
+      "sha256_texte": "42de634a5b27892e35694a1a6728ea3035c1b030bd531d9986ff9161b7499ef1",
+      "verification": "empreinte recalculée indépendamment depuis l'URL source via le navigateur, identique",
+      "pages": 52,
+      "mots": 16338,
+      "extraction": "pdftotext -layout",
+      "remplace": null
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "slug": "egger-clara",
+  "nom": "Clara Egger",
+  "mouvement": "Solution Démocratique",
+  "site_officiel": "https://solutiondemocratique.fr",
+  "statut": "declare",
+  "declaration_date": null,
+  "declaration_source": "https://solutiondemocratique.fr/programme-presidentielle/",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Programme de Solution Démocratique à l'élection présidentielle 2027",
+      "source_url": "https://solutiondemocratique.fr/wp-content/uploads/2026/11/Programme-de-Solution-Democratique-a-lelection-presidentielle-2027.pdf",
+      "page_source": "https://solutiondemocratique.fr/programme-presidentielle/",
+      "capture_date": "2026-11-07T21:34:32Z",
+      "format": "pdf",
+      "fichier_original": "original/programme-v1.pdf",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": "4ba753e497f13851a0f14ee088e9da3fa212e461430cfa1aa461e56ca582928d",
+      "sha256_texte": "1458f7cd18b6e5aaf935ae913157ade53ac4a381bfb9d48ba24567033dd551ab",
+      "verification": "empreinte recalculée indépendamment depuis l'URL source via le navigateur, identique",
+      "pages": 28,
+      "mots": 4160,
+      "extraction": "pdftotext -layout",
+      "remplace": null
+    }
+  ]
+}
