@@ -420,29 +420,66 @@ def page_accueil(election, candidats, sans) -> str:
 
 
 def rendre_texte(c: dict) -> str:
-    """Texte intégral : sauts de ligne conservés, séparateurs « === » en h2,
-    ancres de page invisibles pour les PDF. Aucune autre transformation."""
-    out = []
-    num_page = 1
-    sec = 0
+    """Texte intégral : les lignes consécutives forment un paragraphe (pour un PDF,
+    les retours à la ligne de mise en page sont rendus comme des espaces ; pour une
+    page web, chaque ligne reste une ligne). Les séparateurs « === » deviennent des
+    chapitres repliables avec un sommaire. Ancres de page invisibles pour les PDF.
+    Aucun mot n'est ajouté, retiré ni modifié."""
+    est_pdf = c["doc"].get("format") == "pdf"
+    sections = []  # (id, titre, url, [paragraphes])
+    courant = None
+    bloc = []
+    num_page = [1]
+
+    def rendre_ligne(ligne):
+        if "\f" not in ligne:
+            return e(ligne)
+        rendu = []
+        for i, mo in enumerate(ligne.split("\f")):
+            if i > 0:
+                num_page[0] += 1
+                rendu.append(f'<span class="pg" id="page-{num_page[0]}"></span>')
+            rendu.append(e(mo))
+        return "".join(rendu)
+
+    def fermer_bloc():
+        nonlocal bloc
+        if bloc:
+            sep = " " if est_pdf else "<br>"
+            if courant is None:
+                sections.append([0, None, None, []])
+            (sections[-1] if courant is None else courant)[3].append("<p>" + sep.join(bloc) + "</p>")
+            bloc = []
+
     for ligne in c["texte"].split("\n"):
         m = SEPARATEUR.match(ligne)
         if m:
-            sec += 1
-            titre, url = m.group(1), m.group(2)
-            out.append(f'<h2 id="s-{sec}">{e(titre)} <a class="src" href="{e(url)}" rel="noopener">source ↗</a></h2>')
+            fermer_bloc()
+            courant = [len(sections) + 1, m.group(1), m.group(2), []]
+            sections.append(courant)
             continue
-        if "\f" in ligne:
-            morceaux = ligne.split("\f")
-            rendu = []
-            for i, mo in enumerate(morceaux):
-                if i > 0:
-                    num_page += 1
-                    rendu.append(f'<span class="pg" id="page-{num_page}"></span>')
-                rendu.append(e(mo))
-            out.append("".join(rendu))
+        if ligne.strip() == "" or ligne.strip() == "\f":
+            if "\f" in ligne:
+                bloc.append(rendre_ligne(ligne))
+            fermer_bloc()
+            continue
+        bloc.append(rendre_ligne(ligne))
+    fermer_bloc()
+
+    titres = [sct for sct in sections if sct[1]]
+    out = []
+    if len(titres) > 1:
+        items = "".join(f'<li><a href="#s-{sid}">{e(t)}</a></li>' for sid, t, _, _ in titres)
+        out.append(f'<nav class="sommaire" aria-label="Sommaire du programme"><p class="lib">Sommaire · {len(titres)} chapitres</p><ol>{items}</ol><p class="aide"><button type="button" data-tout="ouvrir">Tout déplier</button> · <button type="button" data-tout="fermer">Tout replier</button></p></nav>')
+    for i, (sid, titre, url, paras) in enumerate(sections):
+        corps = "\n".join(paras)
+        if titre is None:
+            out.append(corps)
+        elif len(titres) > 1:
+            ouvert = " open" if i == 0 or len(titres) <= 3 else ""
+            out.append(f'<details class="chapitre" id="s-{sid}"{ouvert}><summary><h2>{e(titre)}</h2><a class="src" href="{e(url)}" rel="noopener">source ↗</a></summary>{corps}</details>')
         else:
-            out.append(e(ligne))
+            out.append(f'<h2 id="s-{sid}">{e(titre)} <a class="src" href="{e(url)}" rel="noopener">source ↗</a></h2>\n{corps}')
     return "\n".join(out)
 
 

@@ -36,6 +36,23 @@
     });
   });
 
+  /* ---------- Sommaire : tout déplier / replier, et ouverture du chapitre visé ---------- */
+  $$("[data-tout]").forEach(function (b) {
+    b.addEventListener("click", function () {
+      var ouvrir = b.getAttribute("data-tout") === "ouvrir";
+      $$("details.chapitre").forEach(function (d) { d.open = ouvrir; });
+    });
+  });
+  function ouvrirCible() {
+    var h = location.hash && document.getElementById(location.hash.slice(1));
+    if (!h) return;
+    var d = h.closest ? h.closest("details.chapitre") : null;
+    if (d) d.open = true;
+    if (h.tagName === "DETAILS") h.open = true;
+  }
+  window.addEventListener("hashchange", ouvrirCible);
+  ouvrirCible();
+
   /* ---------- Onglets (page programme) ---------- */
   var tablist = $('[role="tablist"]');
   if (tablist) {

@@ -109,8 +109,12 @@ p.verif { margin: 0 0 16px; font-size: 14px; color: var(--gris); }
 .badge.gris { background: var(--fond); color: var(--gris-fonce); border: 1px solid var(--gris-clair); }
 
 /* Page programme */
-main.programme { display: grid; grid-template-columns: minmax(0, 300px) minmax(0, 2fr); gap: 40px; }
-main.programme aside { display: flex; flex-direction: column; gap: 20px; min-width: 0; }
+main.programme { display: grid; grid-template-columns: minmax(0, 1fr); gap: 28px; max-width: 1200px; }
+main.programme aside { display: grid; grid-template-columns: minmax(0, 1.2fr) minmax(280px, 1fr) auto; gap: 16px 28px; align-items: start; min-width: 0; padding: 20px 24px; background: var(--blanc); border: 1px solid var(--bordure); border-radius: 8px; }
+main.programme aside > a.retour { grid-column: 1 / -1; }
+main.programme aside .actions { display: flex; flex-direction: column; gap: 8px; min-width: 240px; }
+main.programme aside .legende { grid-column: 1 / -1; margin: 0; }
+main.programme .texte { max-width: 920px; }
 main.programme aside h1 { margin: 0 0 4px; font-size: 28px; }
 main.programme aside .mouv { margin: 0; font-size: 15px; color: var(--gris); }
 a.retour { font-size: 14px; }
@@ -129,11 +133,26 @@ p.legende { margin: 0; font-size: 13px; line-height: 1.5; color: var(--gris); }
 .panneau[hidden] { display: none; }
 .panneau .kicker { margin: 0 0 24px; font-size: 13px; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gris); }
 .panneau h2.doc { margin: 0 0 16px; font-family: var(--serif); font-size: 26px; font-weight: 600; }
-.texte { font-family: var(--serif); font-size: 18px; line-height: 1.7; white-space: pre-wrap; overflow-wrap: anywhere; }
-.texte h2 { margin: 32px 0 12px; font-size: 21px; font-weight: 600; white-space: normal; }
+.texte { font-family: var(--serif); font-size: 17px; line-height: 1.55; overflow-wrap: anywhere; }
+.texte p { margin: 0 0 12px; }
+.texte h2 { margin: 28px 0 10px; font-size: 20px; font-weight: 600; }
 .texte h2:first-child { margin-top: 0; }
-.texte h2 a.src { font-family: var(--sans); font-size: 12px; font-weight: 500; color: var(--gris); margin-left: 8px; white-space: nowrap; }
+.texte a.src { font-family: var(--sans); font-size: 12px; font-weight: 500; color: var(--gris); margin-left: 8px; white-space: nowrap; }
 .texte .pg { display: block; height: 0; }
+.texte .sommaire { font-family: var(--sans); font-size: 14px; margin: 0 0 24px; padding: 14px 18px; background: var(--fond); border: 1px solid var(--bordure); border-radius: 8px; }
+.texte .sommaire .lib { margin: 0 0 8px; font-weight: 600; color: var(--gris); font-size: 12px; letter-spacing: 0.06em; text-transform: uppercase; }
+.texte .sommaire ol { margin: 0; padding-left: 20px; columns: 2; column-gap: 24px; }
+.texte .sommaire li { margin: 2px 0; break-inside: avoid; }
+.texte .sommaire .aide { margin: 10px 0 0; color: var(--gris); }
+.texte .sommaire button { border: 0; background: none; padding: 0; font: inherit; color: var(--bleu); cursor: pointer; text-decoration: underline; }
+.texte details.chapitre { border-top: 1px solid var(--bordure); padding: 6px 0 4px; }
+.texte details.chapitre > summary { list-style: none; cursor: pointer; display: flex; flex-wrap: wrap; align-items: baseline; gap: 8px; padding: 10px 0; }
+.texte details.chapitre > summary::-webkit-details-marker { display: none; }
+.texte details.chapitre > summary::before { content: "▸"; font-family: var(--sans); color: var(--bleu); font-size: 14px; }
+.texte details.chapitre[open] > summary::before { content: "▾"; }
+.texte details.chapitre > summary h2 { margin: 0; display: inline; }
+.texte details.chapitre > p:last-child { margin-bottom: 18px; }
+@media (max-width: 640px) { .texte .sommaire ol { columns: 1; } .texte { font-size: 16px; } }
 .original object, .original iframe { width: 100%; height: 80vh; border: 1px solid var(--bordure); }
 table.tab { width: 100%; border-collapse: collapse; font-size: 14px; }
 table.tab th, table.tab td { text-align: left; padding: 8px 10px; border-bottom: 1px solid var(--bordure); vertical-align: top; overflow-wrap: anywhere; }
@@ -206,7 +225,7 @@ p.signal { margin: 24px 0 0; font-size: 14px; color: var(--gris); }
 .sans-tete .badge { margin: 24px 0 8px; }
 
 @media (max-width: 900px) {
-  main.programme { grid-template-columns: 1fr; }
+  main.programme aside { grid-template-columns: 1fr; }
   .panneau { padding: 24px; }
 }
 @media (max-width: 600px) {
