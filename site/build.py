@@ -30,6 +30,7 @@ DEPOT = "https://github.com/ThibautRoo/auxvotescitoyens"
 ISSUES = DEPOT + "/issues"
 CONTACT = "contact@auxvotescitoyens.fr"
 SITE_NOM = "auxvotescitoyens.fr"
+VERSION_STATIQUE = hashlib.sha256((STATIC / "style.css").read_bytes() + (STATIC / "app.js").read_bytes()).hexdigest()[:8]
 PASSAGES_VISIBLES = 5          # passages affichés avant « Afficher les autres »
 LIMITE_TEXTES = 3 * 1024 * 1024  # au-delà, textes.json est découpé par candidat
 
@@ -298,7 +299,7 @@ def page(titre: str, corps: str, courant: str = "", classe_main: str = "", descr
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{e(titre)} · {SITE_NOM}</title>
-{desc}<link rel="stylesheet" href="/static/style.css">
+{desc}<link rel="stylesheet" href="/static/style.css?v={VERSION_STATIQUE}">
 <link rel="icon" href="data:,">
 </head>
 <body>
@@ -326,7 +327,7 @@ def page(titre: str, corps: str, courant: str = "", classe_main: str = "", descr
 <a href="/verifier/">Vérifier une empreinte</a>
 </nav>
 </footer>
-<script src="/static/app.js"></script>
+<script src="/static/app.js?v={VERSION_STATIQUE}"></script>
 </body>
 </html>
 """
@@ -451,19 +452,47 @@ def rendre_texte(c: dict) -> str:
             (sections[-1] if courant is None else courant)[3].append("<p>" + sep.join(bloc) + "</p>")
             bloc = []
 
-    for ligne in c["texte"].split("\n"):
+    lignes = c["texte"].split("\n")
+    # Pour un PDF, les lignes sont coupées par la mise en page et il n'y a pas
+    # toujours de ligne vide entre deux paragraphes : on détecte les fins de
+    # paragraphe (ponctuation finale + ligne courte ou majuscule suivante, titres
+    # en capitales, puces). Présentation seulement : les mots ne changent pas.
+    longueurs = sorted(len(l.strip()) for l in lignes if l.strip() and not SEPARATEUR.match(l))
+    mediane = longueurs[len(longueurs) // 2] if longueurs else 60
+    PUCE = re.compile(r"^\s*([-•·▪–]|\d{1,2}[.)]|[A-Z][.)])\s+")
+    def est_titre(l):
+        t = l.strip()
+        lettres = [ch for ch in t if ch.isalpha()]
+        return len(lettres) >= 3 and all(ch.isupper() for ch in lettres) and len(t) <= 120
+    prec = None
+    for ligne in lignes:
         m = SEPARATEUR.match(ligne)
         if m:
             fermer_bloc()
             courant = [len(sections) + 1, m.group(1), m.group(2), []]
             sections.append(courant)
+            prec = None
             continue
         if ligne.strip() == "" or ligne.strip() == "\f":
             if "\f" in ligne:
                 bloc.append(rendre_ligne(ligne))
             fermer_bloc()
+            prec = None
             continue
+        if est_pdf and bloc and prec is not None:
+            cur = ligne.strip()
+            p = prec.strip().replace("\f", "")
+            coupe = False
+            if est_titre(cur) or est_titre(p):
+                coupe = True
+            elif PUCE.match(cur):
+                coupe = True
+            elif p and p[-1] in ".!?:»" and (len(p) < 0.8 * mediane or (cur and (cur[0].isupper() or cur[0] in "«\"'" or cur[0].isdigit()))):
+                coupe = True
+            if coupe:
+                fermer_bloc()
         bloc.append(rendre_ligne(ligne))
+        prec = ligne
     fermer_bloc()
 
     titres = [sct for sct in sections if sct[1]]
