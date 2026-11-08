@@ -317,7 +317,7 @@ def page(titre: str, corps: str, courant: str = "", classe_main: str = "", descr
 </main>
 <footer class="site">
 <p>Projet associatif, open source et gratuit. Aucune publicité, aucun traceur, aucun financement politique.</p>
-<p class="compteurs" id="compteurs" data-modele="[N] visites depuis le [JJ/MM/AAAA] · [N] soutiens">– visites · – soutiens</p>
+<p class="compteurs" id="compteurs" data-modele="[N] visites depuis le [JJ/MM/AAAA] · [N] validations">– visites · – validations</p>
 <nav aria-label="Pied de page">
 <a href="mailto:{CONTACT}">Contact : {CONTACT}</a>
 <a href="{ISSUES}" rel="noopener">Signaler une erreur de texte</a>
@@ -378,8 +378,8 @@ def page_accueil(election, candidats, sans) -> str:
 <li>Code ouvert à tous</li>
 </ul>
 <div class="soutien">
-<button type="button" class="btn" id="btn-soutien"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Je soutiens la démarche</button>
-<p><strong id="nb-soutiens">–</strong> citoyens soutiennent un site neutre, sans résumé ni interprétation. Un clic, rien d'autre : ni compte, ni adresse, ni traceur.</p>
+<button type="button" class="btn" id="btn-soutien"><svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6L9 17l-5-5"/></svg>Je valide la démarche</button>
+<p><strong id="nb-soutiens">–</strong> citoyens ont validé cette démarche : un site neutre, sans résumé ni interprétation. <strong>Gratuit, un clic, rien d'autre</strong> : ni argent, ni compte, ni adresse, ni traceur.</p>
 </div>
 <form class="recherche" action="/recherche/" method="get" role="search">
 <label for="q" class="sr-only">Rechercher un mot dans tous les programmes</label>
@@ -787,7 +787,7 @@ def page_mentions() -> str:
 <h2>Hébergeur</h2>
 <p>{champ("HÉBERGEUR : Scalingo SAS, 3 place de Haguenau, 67000 Strasbourg, France")}</p>
 <h2>Données personnelles</h2>
-<p>Le site ne dépose aucun cookie, n'utilise aucun traceur et ne charge aucune ressource depuis un domaine tiers. Deux compteurs anonymes sont tenus : le nombre de visites et le nombre de soutiens. Pour limiter les clics répétés sur le bouton de soutien, une empreinte salée (SHA-256) de l'adresse IP et du jour est conservée en mémoire pendant 24 heures ; l'adresse IP elle-même n'est ni enregistrée ni journalisée par le site.</p>
+<p>Le site ne dépose aucun cookie, n'utilise aucun traceur et ne charge aucune ressource depuis un domaine tiers. Deux compteurs anonymes sont tenus : le nombre de visites et le nombre de validations de la démarche. Pour limiter les clics répétés sur le bouton de validation, une empreinte salée (SHA-256) de l'adresse IP et du jour est conservée en mémoire pendant 24 heures ; l'adresse IP elle-même n'est ni enregistrée ni journalisée par le site.</p>
 <h2>Contenus</h2>
 <p>Les programmes reproduits restent la propriété de leurs auteurs. Ils sont publiés à des fins d'information des électeurs, sans modification, avec indication de leur source, de leur date de capture et de leur empreinte. Toute demande concernant un texte : <a href="mailto:{CONTACT}">{CONTACT}</a> ou <a href="{ISSUES}" rel="noopener">signalement public</a>.</p>
 <h2>Code source</h2>

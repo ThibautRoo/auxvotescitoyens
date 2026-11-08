@@ -85,7 +85,7 @@
   function afficherCompteurs(d) {
     var p = $("#compteurs");
     if (p && d && typeof d.visites === "number") {
-      p.textContent = nombre(d.visites) + " visites depuis le " + dateFr(d.depuis) + " · " + nombre(d.soutiens) + " soutiens";
+      p.textContent = nombre(d.visites) + " visites depuis le " + dateFr(d.depuis) + " · " + nombre(d.soutiens) + " validations";
     }
     var s = $("#nb-soutiens");
     if (s && d && typeof d.soutiens === "number") s.textContent = nombre(d.soutiens);
@@ -103,7 +103,7 @@
     btn.addEventListener("click", function () {
       btn.disabled = true;
       api("POST", "/api/soutien").then(function (d) {
-        if (d) { afficherCompteurs(d); btn.lastChild.textContent = d.deja ? "Soutien déjà compté aujourd'hui" : "Merci, soutien compté"; }
+        if (d) { afficherCompteurs(d); btn.lastChild.textContent = d.deja ? "Déjà compté aujourd'hui" : "Merci, c'est compté"; }
         else { btn.disabled = false; }
       });
     });
