@@ -847,11 +847,11 @@ def page_mentions() -> str:
 <div class="prose">
 <h1>Mentions légales</h1>
 <h2>Éditeur</h2>
-<p>{champ("ÉDITEUR : nom de l'association, forme juridique, adresse du siège, numéro RNA")}</p>
-<p>Directeur de la publication : {champ("DIRECTEUR DE PUBLICATION")}</p>
+<p>Ce site est édité par une personne physique, à titre non professionnel, sans but lucratif. Conformément à l'article 6, III, 2 de la loi n° 2004-575 du 21 juin 2004 pour la confiance dans l'économie numérique, son identité n'est pas publiée ; elle est connue de l'hébergeur, auprès duquel elle peut être obtenue dans les conditions prévues par la loi.</p>
+<p>Directeur de la publication : l'éditeur.</p>
 <p>Contact : <a href="mailto:{CONTACT}">{CONTACT}</a></p>
 <h2>Hébergeur</h2>
-<p>{champ("HÉBERGEUR : Scalingo SAS, 3 place de Haguenau, 67000 Strasbourg, France")}</p>
+<p>Scalingo SAS, 3 place de Haguenau, 67000 Strasbourg, France. Site : scalingo.com. Données hébergées en France.</p>
 <h2>Données personnelles</h2>
 <p>Le site ne dépose aucun cookie, n'utilise aucun traceur et ne charge aucune ressource depuis un domaine tiers. Deux compteurs anonymes sont tenus : le nombre de visites et le nombre de validations de la démarche. Pour limiter les clics répétés sur le bouton de validation, une empreinte salée (SHA-256) de l'adresse IP et du jour est conservée en mémoire pendant 24 heures ; l'adresse IP elle-même n'est ni enregistrée ni journalisée par le site.</p>
 <h2>Contenus</h2>
