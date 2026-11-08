@@ -53,6 +53,53 @@
   window.addEventListener("hashchange", ouvrirCible);
   ouvrirCible();
 
+  /* ---------- Arrivée depuis un passage : retrouver la phrase et surligner le mot ---------- */
+  (function () {
+    var prm = new URLSearchParams(location.search);
+    var cible = prm.get("cible");
+    var zone = $(".texte");
+    if (!cible || !zone) return;
+    function norm(x) { return x.replace(/\s+/g, " ").trim().toLowerCase(); }
+    var c = norm(cible), trouve = null;
+    $$(".texte p, .texte h2").some(function (el) {
+      if (norm(el.textContent).indexOf(c) !== -1) { trouve = el; return true; }
+      return false;
+    });
+    if (!trouve) {
+      var debut = c.slice(0, 40);
+      $$(".texte p").some(function (el) { if (norm(el.textContent).indexOf(debut) !== -1) { trouve = el; return true; } return false; });
+    }
+    if (!trouve) return;
+    var d = trouve.closest("details.chapitre"); if (d) d.open = true;
+    trouve.classList.add("cible");
+    var mots = (prm.get("mot") || "").split("|").filter(Boolean);
+    if (mots.length) {
+      var re = new RegExp("(" + mots.map(function (m) { return m.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }).join("|") + ")", "gi");
+      var w = document.createTreeWalker(trouve, NodeFilter.SHOW_TEXT), noeuds = [], n;
+      while ((n = w.nextNode())) noeuds.push(n);
+      noeuds.forEach(function (t) {
+        if (!re.test(t.nodeValue)) return; re.lastIndex = 0;
+        var frag = document.createDocumentFragment(), last = 0, m;
+        while ((m = re.exec(t.nodeValue))) {
+          frag.appendChild(document.createTextNode(t.nodeValue.slice(last, m.index)));
+          var mk = document.createElement("mark"); mk.textContent = m[0]; frag.appendChild(mk);
+          last = m.index + m[0].length;
+        }
+        frag.appendChild(document.createTextNode(t.nodeValue.slice(last)));
+        t.parentNode.replaceChild(frag, t);
+      });
+    }
+    setTimeout(function () { trouve.scrollIntoView({ block: "center" }); }, 50);
+  })();
+
+  /* ---------- Liens « avis / erreur » : objet du mail avec la page concernée ---------- */
+  $$("[data-mail]").forEach(function (a) {
+    var objet = a.getAttribute("data-mail") + " : " + document.title;
+    var corps = "Page concernée : " + location.href.split("?")[0] + "\n\n";
+    if (a.getAttribute("data-mail") === "Erreur") corps += "Passage ou texte concerné :\n\nCe qui ne correspond pas à la source :\n";
+    a.href = "mailto:" + a.href.slice(7).split("?")[0] + "?subject=" + encodeURIComponent(objet) + "&body=" + encodeURIComponent(corps);
+  });
+
   /* ---------- Onglets (page programme) ---------- */
   var tablist = $('[role="tablist"]');
   if (tablist) {
@@ -192,7 +239,10 @@
   }
   function blocPassages(passages, lien, visibles) {
     function bq(p) {
-      var ou = (p.p ? "p. " + p.p + " · " : "") + '<a href="' + esc(lien) + (p.a ? "#" + esc(p.a) : "") + '">lire dans le texte intégral</a>';
+      var mots = {}; (p.m || []).forEach(function (ab) { mots[p.t.slice(ab[0], ab[1])] = 1; });
+      var href = lien + "?cible=" + encodeURIComponent(p.t.split(/\s+/).join(" ").trim().slice(0, 90)) +
+        (Object.keys(mots).length ? "&mot=" + encodeURIComponent(Object.keys(mots).join("|")) : "") + (p.a ? "#" + p.a : "");
+      var ou = (p.p ? "p. " + p.p + " · " : "") + '<a href="' + esc(href) + '">lire dans le texte intégral</a>';
       return '<blockquote class="passage">« ' + surligner(p) + ' »<span class="ou">' + ou + "</span></blockquote>";
     }
     var h = passages.slice(0, visibles).map(bq).join("");

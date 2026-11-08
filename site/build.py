@@ -316,6 +316,17 @@ def page(titre: str, corps: str, courant: str = "", classe_main: str = "", descr
 <main id="contenu"{(' class="' + classe_main + '"') if classe_main else ''}>
 {corps}
 </main>
+<section class="retour" id="retour" aria-labelledby="h-retour">
+<h2 id="h-retour">Un avis, une erreur, une question ?</h2>
+<p>Tous les messages sont lus. Une erreur de texte est corrigée et la correction reste visible dans l'historique public.</p>
+<div class="retour-actions">
+<a class="btn" data-mail="Avis" href="mailto:{CONTACT}?subject=Avis">Donner un avis</a>
+<a class="btn" data-mail="Erreur" href="mailto:{CONTACT}?subject=Erreur">Signaler une erreur</a>
+<a class="btn sobre" href="mailto:{CONTACT}?subject=Contact">Nous contacter</a>
+</div>
+<p class="petit">Vous préférez un signalement public ? <a href="{ISSUES}" rel="noopener">Ouvrir un signalement sur le code source</a>. Votre adresse n'est jamais publiée ni conservée hors de la boîte mail.</p>
+</section>
+<a class="retour-flottant" href="#retour">Avis ou erreur ?</a>
 <footer class="site">
 <p>Projet associatif, open source et gratuit. Aucune publicité, aucun traceur, aucun financement politique.</p>
 <p class="compteurs" id="compteurs" data-modele="[N] visites depuis le [JJ/MM/AAAA] · [N] validations">– visites · – validations</p>
@@ -679,12 +690,21 @@ def page_sujets_index(sujets) -> str:
     return page("Par sujet", corps, "/sujets/")
 
 
+def lien_cible(lien: str, p: dict) -> str:
+    """Lien vers le texte intégral qui retrouve le passage exact et le mot surligné."""
+    from urllib.parse import quote
+    debut = " ".join(p["t"].split())[:90]
+    mots = sorted({p["t"][a:b] for a, b in p.get("m", [])})
+    q = "?cible=" + quote(debut) + ("&mot=" + quote("|".join(mots)) if mots else "")
+    return lien + q + ("#" + p["a"] if p.get("a") else "")
+
+
 def bloc_passages(passages, lien: str, classe_blockquote: str = "passage", lieu: bool = False) -> str:
     def bq(p):
         ou = ""
         if lieu:
             where = f"p. {p['p']} · " if p.get("p") else ""
-            ou = f'<span class="ou">{where}<a href="{e(lien)}#{e(p["a"])}">lire dans le texte intégral</a></span>' if p.get("a") else f'<span class="ou">{where}<a href="{e(lien)}">lire dans le texte intégral</a></span>'
+            ou = f'<span class="ou">{where}<a href="{e(lien_cible(lien, p))}">lire dans le texte intégral</a></span>'
         return f'<blockquote class="{classe_blockquote}">« {surligner(p)} »{ou}</blockquote>'
     visibles = "".join(bq(p) for p in passages[:PASSAGES_VISIBLES])
     reste = passages[PASSAGES_VISIBLES:]
