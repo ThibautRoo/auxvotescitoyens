@@ -34,6 +34,8 @@ CHARTE.md                 Règles de neutralité (fait foi)
 data/
   presidentielle-2027/
     election.json         Métadonnées de l'élection
+    candidats-sans-programme.json
+                          Candidats déclarés sans programme écrit, avec le constat et la date de vérification
     candidats/
       <slug>/
         meta.json         Candidat, source, date de capture, empreintes
