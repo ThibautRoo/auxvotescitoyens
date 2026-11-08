@@ -28,6 +28,13 @@
     enfants.forEach(function (el) { conteneur.appendChild(el); });
   }
   $$("[data-shuffle]").forEach(melanger);
+  $$("[data-retirer]").forEach(function (btn) {
+    btn.addEventListener("click", function () {
+      $$("[data-shuffle]").forEach(melanger);
+      var t = btn.closest(".tirage");
+      if (t) { t.classList.remove("anim"); void t.offsetWidth; t.classList.add("anim"); }
+    });
+  });
 
   /* ---------- Onglets (page programme) ---------- */
   var tablist = $('[role="tablist"]');

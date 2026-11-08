@@ -89,6 +89,12 @@ form.recherche input { flex: 1 1 320px; height: 52px; padding: 0 16px; font-size
 .liste-tete { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 12px; margin-bottom: 12px; }
 .liste-tete h2 { margin: 0; font-size: 24px; }
 .liste-tete p { margin: 0; font-size: 14px; color: var(--gris); }
+.tirage { display: inline-flex; flex-wrap: wrap; align-items: center; gap: 10px; padding: 8px 12px 8px 14px; border: 1.5px solid var(--bleu); border-radius: 999px; background: var(--blanc); color: var(--bleu); font-size: 14px; }
+.tirage strong { font-weight: 700; }
+.tirage .retirer { height: 30px; padding: 0 12px; border: 0; border-radius: 999px; background: var(--bleu); color: var(--blanc); font: inherit; font-size: 13px; font-weight: 600; cursor: pointer; }
+.tirage .retirer:hover { background: #000070; }
+.tirage.anim { animation: tirage-pulse 0.5s ease; }
+@keyframes tirage-pulse { 0% { background: var(--bleu); color: var(--blanc); } 100% { background: var(--blanc); color: var(--bleu); } }
 .bandeau { display: flex; flex-wrap: wrap; align-items: center; gap: 12px 16px; padding: 14px 18px; margin-bottom: 16px; background: var(--alerte); border: 1px solid var(--rouge); border-radius: 8px; }
 .bandeau .etiquette { padding: 4px 10px; background: var(--rouge); color: var(--blanc); font-size: 12px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; border-radius: 4px; }
 .bandeau p { margin: 0; font-size: 14px; line-height: 1.5; flex: 1 1 400px; }
