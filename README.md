@@ -43,7 +43,8 @@ data/
         texte/            Texte brut extrait, sans modification
 sujets/
   sujets.json             Listes de mots publiques pour la recherche par sujet
-site/                     Générateur du site statique (à venir)
+site/                     Générateur du site statique (site/build.py → dist/)
+app/                      Application Flask servie par Scalingo : pages statiques + compteurs
 ```
 
 ## Vérifier un document

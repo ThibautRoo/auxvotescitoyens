@@ -27,3 +27,8 @@ build/
 __pycache__/
 *.pyc
 .venv/
+
+# Généré par site/build.py
+dist/
+app/__pycache__/
+site/__pycache__/

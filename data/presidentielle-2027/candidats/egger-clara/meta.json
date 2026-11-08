@@ -18,11 +18,11 @@
       "fichier_original": "original/programme-v1.pdf",
       "fichier_texte": "texte/programme-v1.txt",
       "sha256_original": "4ba753e497f13851a0f14ee088e9da3fa212e461430cfa1aa461e56ca582928d",
-      "sha256_texte": "1458f7cd18b6e5aaf935ae913157ade53ac4a381bfb9d48ba24567033dd551ab",
+      "sha256_texte": "de4e5bddb4298e8084d06624a8fe559b100536dc45669bfb309151ed03ebd9bc",
       "verification": "empreinte recalculée indépendamment depuis l'URL source via le navigateur, identique",
       "pages": 28,
-      "mots": 4160,
-      "extraction": "pdftotext -layout",
+      "mots": 4161,
+      "extraction": "pdftotext -raw (ordre de lecture ; remplace l'extraction -layout du 07/11/2026 qui mélangeait les colonnes)",
       "remplace": null
     }
   ]
