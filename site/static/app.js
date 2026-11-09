@@ -53,45 +53,6 @@
   window.addEventListener("hashchange", ouvrirCible);
   ouvrirCible();
 
-  /* ---------- Arrivée depuis un passage : retrouver la phrase et surligner le mot ---------- */
-  (function () {
-    var prm = new URLSearchParams(location.search);
-    var cible = prm.get("cible");
-    var zone = $(".texte");
-    if (!cible || !zone) return;
-    function norm(x) { return x.replace(/\s+/g, " ").trim().toLowerCase(); }
-    var c = norm(cible), trouve = null;
-    $$(".texte p, .texte h2").some(function (el) {
-      if (norm(el.textContent).indexOf(c) !== -1) { trouve = el; return true; }
-      return false;
-    });
-    if (!trouve) {
-      var debut = c.slice(0, 40);
-      $$(".texte p").some(function (el) { if (norm(el.textContent).indexOf(debut) !== -1) { trouve = el; return true; } return false; });
-    }
-    if (!trouve) return;
-    var d = trouve.closest("details.chapitre"); if (d) d.open = true;
-    trouve.classList.add("cible");
-    var mots = (prm.get("mot") || "").split("|").filter(Boolean);
-    if (mots.length) {
-      var re = new RegExp("(" + mots.map(function (m) { return m.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }).join("|") + ")", "gi");
-      var w = document.createTreeWalker(trouve, NodeFilter.SHOW_TEXT), noeuds = [], n;
-      while ((n = w.nextNode())) noeuds.push(n);
-      noeuds.forEach(function (t) {
-        if (!re.test(t.nodeValue)) return; re.lastIndex = 0;
-        var frag = document.createDocumentFragment(), last = 0, m;
-        while ((m = re.exec(t.nodeValue))) {
-          frag.appendChild(document.createTextNode(t.nodeValue.slice(last, m.index)));
-          var mk = document.createElement("mark"); mk.textContent = m[0]; frag.appendChild(mk);
-          last = m.index + m[0].length;
-        }
-        frag.appendChild(document.createTextNode(t.nodeValue.slice(last)));
-        t.parentNode.replaceChild(frag, t);
-      });
-    }
-    setTimeout(function () { trouve.scrollIntoView({ block: "center" }); }, 50);
-  })();
-
   /* ---------- Liens « avis / erreur » : objet du mail avec la page concernée ---------- */
   $$("[data-mail]").forEach(function (a) {
     var objet = a.getAttribute("data-mail") + " : " + document.title;
@@ -144,6 +105,92 @@
       });
     });
   }
+
+  /* ---------- Arrivée depuis un passage : retrouver la phrase et surligner le mot ----------
+     Placé après les onglets : le panneau « Texte intégral » doit pouvoir être activé. */
+  (function () {
+    var prm = new URLSearchParams(location.search);
+    var cible = prm.get("cible");
+    var zone = $(".texte");
+    if (!cible || !zone) return;
+
+    // Normalisation caractère par caractère (longueur conservée) : minuscules, sans accents,
+    // apostrophes et guillemets typographiques ramenés à ' et ", espaces insécables ramenés à un espace.
+    function nc(ch) {
+      if (ch === "’" || ch === "‘" || ch === "ʼ" || ch === "′" || ch === "`" || ch === "´") return "'";
+      if (ch === "“" || ch === "”" || ch === "«" || ch === "»") return '"';
+      if (ch === "–" || ch === "—" || ch === "‑") return "-";
+      if (/\s/.test(ch)) return " ";
+      var d = ch.toLowerCase();
+      if (d.normalize) { var f = d.normalize("NFD").replace(/[̀-ͯ]/g, ""); if (f.length) d = f.charAt(0); }
+      return d;
+    }
+    function normMap(x) { var o = ""; for (var i = 0; i < x.length; i++) o += nc(x.charAt(i)); return o; }
+    function norm(x) { return normMap(x).replace(/ +/g, " ").trim(); }
+
+    // 1. Activer l'onglet qui contient le texte (même logique que pour les ancres #)
+    var panneau = zone.closest ? zone.closest('[role="tabpanel"]') : null;
+    if (panneau && panneau.hidden) {
+      var tab = $$('[role="tab"]').filter(function (t) { return t.getAttribute("aria-controls") === panneau.id; })[0];
+      if (tab) tab.click(); else panneau.hidden = false;
+    }
+
+    // 2. Chercher la phrase dans tous les blocs de texte (le bloc le plus profond l'emporte)
+    var blocs = $$("p, h2, h3, li, blockquote", zone).map(function (el) { return { el: el, t: norm(el.textContent) }; });
+    function chercher(frag) {
+      if (!frag) return null;
+      var hits = blocs.filter(function (b) { return b.t.indexOf(frag) !== -1; });
+      for (var i = 0; i < hits.length; i++) {
+        var el = hits[i].el;
+        if (!hits.some(function (h) { return h.el !== el && el.contains(h.el); })) return el;
+      }
+      return null;
+    }
+    var c = norm(cible), trouve = null;
+    [c, c.slice(0, 60).trim(), c.slice(0, 30).trim()].some(function (frag) { trouve = chercher(frag); return !!trouve; });
+
+    // 3. Surlignage : mot entier, éventuellement suivi d'une marque de pluriel
+    var mots = (prm.get("mot") || "").split("|").filter(Boolean).map(norm).filter(Boolean);
+    function surlignerDans(racine) {
+      if (!mots.length) return [];
+      var alt = mots.map(function (m) { return m.replace(/[.*+?^${}()|[\]\\]/g, "\\$&"); }).join("|");
+      var re = new RegExp("(" + alt + ")(?:s|x|es)?", "g");
+      var lettre = /[a-z0-9À-ɏ]/;
+      var w = document.createTreeWalker(racine, NodeFilter.SHOW_TEXT), noeuds = [], n, marques = [];
+      while ((n = w.nextNode())) noeuds.push(n);
+      noeuds.forEach(function (t) {
+        var src = t.nodeValue, nv = normMap(src), frag = null, last = 0, m;
+        re.lastIndex = 0;
+        while ((m = re.exec(nv))) {
+          var deb = m.index, fin = m.index + m[0].length;
+          if ((deb > 0 && lettre.test(nv.charAt(deb - 1))) || (fin < nv.length && lettre.test(nv.charAt(fin)))) { re.lastIndex = deb + 1; continue; }
+          if (!frag) frag = document.createDocumentFragment();
+          frag.appendChild(document.createTextNode(src.slice(last, deb)));
+          var mk = document.createElement("mark"); mk.textContent = src.slice(deb, fin); frag.appendChild(mk); marques.push(mk);
+          last = fin;
+        }
+        if (frag) { frag.appendChild(document.createTextNode(src.slice(last))); t.parentNode.replaceChild(frag, t); }
+      });
+      return marques;
+    }
+
+    var vise = null;
+    if (trouve) {
+      var d = trouve.closest("details.chapitre"); if (d) d.open = true;
+      trouve.classList.add("cible");
+      var m1 = surlignerDans(trouve);
+      vise = trouve;
+      if (!m1.length) { var m2 = surlignerDans(zone); if (m2.length) vise = m2[0]; }
+    } else {
+      // 4. Phrase introuvable : le mot seul, partout dans le texte, scroll sur la première occurrence
+      $$("details.chapitre", zone).forEach(function (dd) { dd.open = true; });
+      var ms = surlignerDans(zone);
+      if (ms.length) vise = ms[0];
+    }
+    if (!vise) return;
+    var d2 = vise.closest ? vise.closest("details.chapitre") : null; if (d2) d2.open = true;
+    setTimeout(function () { vise.scrollIntoView({ block: "center" }); }, 120);
+  })();
 
   /* ---------- Compteurs (visites, soutiens) ---------- */
   function afficherCompteurs(d) {
