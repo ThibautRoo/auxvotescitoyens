@@ -368,7 +368,7 @@ def carte_sans(s: dict) -> str:
             f'<span class="badge gris">Pas de programme publié</span>'
             f'<span class="nom">{e(s["nom"])}</span>'
             f'<span class="mouv">{e(s.get("mouvement") or "Mouvement non indiqué sur le site")}</span>'
-            f'<span class="info">Site officiel vérifié le {date_fr(s["verifie_le"])}</span>'
+            f'<span class="info">{"Site officiel vérifié le " + date_fr(s["verifie_le"]) if s.get("site_officiel") else "Site officiel non trouvé à cette date"}</span>'
             f'</a>')
 
 
@@ -645,7 +645,7 @@ def page_sans(s: dict, election, sans) -> str:
 <div class="sans-tete">
 <span class="badge gris">Pas de programme publié</span>
 <h1>{e(s["nom"])}</h1>
-<p>{e(mouv)} · site officiel : <a href="{e(s["site_officiel"])}" rel="noopener">{e(s["site_officiel"])}</a></p>
+<p>{e(mouv)} · {f'site officiel : <a href="{e(s["site_officiel"])}" rel="noopener">{e(s["site_officiel"])}</a>' if s.get("site_officiel") else "site officiel non trouvé à cette date"}</p>
 </div>
 <section class="encadre">
 <p class="fort">Aucun programme publié par le candidat à ce jour.</p>
