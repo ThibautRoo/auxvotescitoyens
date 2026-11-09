@@ -248,6 +248,7 @@ def charger():
             "slug": meta["slug"],
             "nom": meta["nom"],
             "mouvement": meta.get("mouvement"),
+            "mouvement_source": meta.get("mouvement_source"),
             "site_officiel": meta.get("site_officiel"),
             "statut": meta.get("statut"),
             "declaration_date": meta.get("declaration_date"),
@@ -533,6 +534,7 @@ def page_candidat(c: dict, election) -> str:
     pages_sources = doc.get("pages_sources") or []
     nb_versions = len(c["docs"])
     mouv = c["mouvement"] or "Mouvement non indiqué sur le site"
+    mouv_src = f', <a href="{e(c["mouvement_source"])}" rel="noopener">source</a>' if c.get("mouvement_source") else ""
 
     # Bouton page source
     src = doc.get("page_source") or doc.get("source_url") or c["site_officiel"]
@@ -600,7 +602,7 @@ def page_candidat(c: dict, election) -> str:
 <div class="ligne-titre">
 <div class="identite">
 <h1>{e(c["nom"])}</h1>
-<p class="mouv">{e(mouv)}</p>
+<p class="mouv">{e(mouv)}{mouv_src}</p>
 </div>
 <div class="actions">
 <div class="boutons">
