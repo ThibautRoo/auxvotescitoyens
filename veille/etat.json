@@ -1,0 +1,915 @@
+{
+ "pages": {
+  "https://anasse2027.fr/programme": {
+   "sha256_texte": "b6ff717903d31a9a32973ba7215043f7352be7acc6fb89bc8271a4d1f8f6b467",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme": {
+   "sha256_texte": "b170ac4478f5e67cfb59ac2929c1300033cf9acafb0e22478c27410349bddfcd",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/dette-de-letat": {
+   "sha256_texte": "4e36e0f21e99cd008b98f457248fee4c8812bd491c3d8c7567657c15b8a8061d",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/dette-ecologique": {
+   "sha256_texte": "7421599be748491772e69a4f379326295cd8fdd16ff7342140f53b3d026ed65a",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/education": {
+   "sha256_texte": "9ef284a62ef5ecb20e97d3a92a14a9b57c256152fb775c92928e349ec9b18cd4",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/frontieres": {
+   "sha256_texte": "586eca6536c92cc8ff44e7281d390cfedbd7663b35842166725c12bfaca72916",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/intelligence-artificielle": {
+   "sha256_texte": "6757619f2f15f68850c47d097e966890f0fbf4d4307306be8540adb8988da869",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/aide-professionnels-vehicule": {
+   "sha256_texte": "67d84f31567bff819ce8dc960e32be3fd05991cdf7a8eb867825ca87b95b191d",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/aides-directes-plutot-que-baisses-de-taxes": {
+   "sha256_texte": "b14873194f89d7b11d7313b6ce3c0269cb6dd320c493f73cfa540189a5d41d50",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/amende-des-le-premier-acte-maltraitance": {
+   "sha256_texte": "d489eaedf0655e594bca77ce4e8404a01efe3ad44d85c921318d1fe8c62bc87b",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/amendes-majorees-saisie-vehicules": {
+   "sha256_texte": "c616d612965b3495437f26021abceddc0ce09f4cdb420da8a4f6ec0bdb67af28",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/annee-passerelle": {
+   "sha256_texte": "988365766c5609af78013f1a462ce10af7c98d7647c59db50e9dc78ce7f64edf",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/assistant-medical-ia": {
+   "sha256_texte": "76d215895010dd044c8d17aa4ea1d4bb85c392573d1edd66b7f09d871579f5a5",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/attestation-honorabilite-mineurs": {
+   "sha256_texte": "9120cc53bedf9f019032062217caf34958659ff796de84fc46d91be7ea7e48d3",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/aucune-hausse-impots": {
+   "sha256_texte": "5a772019acc1dd47dbfae08c99830ba1a913e0df94c3a768778b7d4459ef776f",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/audit-programmes-armement": {
+   "sha256_texte": "d016db122241849f1eaf1fd566cc5a8ebbf3ee128ed538b7b380a02a02a892d5",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/bareme-national-sanctions": {
+   "sha256_texte": "61001eec7eed584536bd86415fab7f323b6b33e66ccb9ddfbcbcd6bbd32c9cc3",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/big-bang-territorial": {
+   "sha256_texte": "a71d3feac17718e0521aba04c5a0daebbbe680b64e5c4ff693fecf7bccdcec33",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/bouclier-tarifaire-eau": {
+   "sha256_texte": "6568ab71ab9dfd293bd32ed84067d683e97a12fb7e2d20cc51f82992d753b9ff",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/brevet-obligatoire-entree-lycee": {
+   "sha256_texte": "825d7c10219c0851c14fd40497ffc02544647e5ce0b85bffcb61a5ce90ebb1d3",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/capitalisation-startups": {
+   "sha256_texte": "6a9acb9584ea3dfe2bfda1624263e9b46699c9f02bced307420225aa4bb9e2d0",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/carte-famille-monoparentale": {
+   "sha256_texte": "12ede8703fcc07694c4481ad76fb742615f27f800693167d664050ad13192a75",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/cent-mille-postes-en-moins": {
+   "sha256_texte": "1de7675926288e9d7a43e356ede350b440e1d01acc496c135d332ce18253d404",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/certificat-etudes-cm2": {
+   "sha256_texte": "55f43432b378085aa765df888db794c8259f6fc538675b9791f06e688fb1410b",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/clauses-miroir-systematiques": {
+   "sha256_texte": "fc0c3f671f4b2d4dd073fe02560e6865cdc590cdb5e389b5840520671b9ca5c2",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/climatisation-etablissements": {
+   "sha256_texte": "9b107610a2c09470604e5a9d3357ec098c1aa5f2bb8cdc4926a7aa43842a7767",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/commande-publique-defense": {
+   "sha256_texte": "4203c19433b3734bbd3c8feaa629fa17bf9875bdf8ad9d5994f9b3f9ed64f0f9",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/comparution-immediate-mineurs": {
+   "sha256_texte": "546ae996dc6ff8a4ff4fafd3776f39853b71777b3637e81aefde62f3e52f8a26",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/conseil-discipline-primaire": {
+   "sha256_texte": "e644567d874672021982e1cd9706c03ae6f58aaef469061a24b14eabfb5b22ad",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/constitution-du-travail": {
+   "sha256_texte": "5d65d6d5f3433fccf52e32dc32a8bf667265b493644a94f344b280ae3ff2e159",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/contractualisation-pluriannuelle": {
+   "sha256_texte": "e750d73cfba0dffec99e2160ec2df9130d12f7f0443a431120cee6b8025a88ec",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/deficit-sous-trois-pour-cent": {
+   "sha256_texte": "ea8f73b60e1ffd7f03632b0474b7f671f648e943f649f16fad3ceb3cfcd703c2",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/defiscaliser-pensions-alimentaires": {
+   "sha256_texte": "b1d7fb8c8b4ae18d6fcd352d2b4e842fb053fe8a6cc18c5da249e8021271201e",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/delai-deux-mois-porteurs-projets": {
+   "sha256_texte": "f946d39cbec1cfe47fb9813c990e40f62b4f898a2522472cb09106f3db13d849",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/delit-maintien-illicite": {
+   "sha256_texte": "28d47715b1fdaca04743fb94ce920fa2c9f15120b5ef8cefa955d65b8767cef9",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/depistage-pfas-captages": {
+   "sha256_texte": "118ed921117769b51067e63749b5f38dfd330b9c1ff8aa771ee36adfd9a7a06d",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/diviser-par-deux-dependance-militaire": {
+   "sha256_texte": "8719a665b008662d237ef6471f51834943e81936b5dbad88d46681aa86896154",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/dome-de-fer-europeen": {
+   "sha256_texte": "3a33d54aab37f86fbb101f3e82f8dd748ae59cd46d23421c1b40735684c29f00",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/dossier-administratif-par-convoi": {
+   "sha256_texte": "b00cd5175fc71085dcc61b7e883c1000e832f0657bf2d6cf390c72587797ddf6",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/doubler-subventions-geoenergie": {
+   "sha256_texte": "b4cc164f743c26bed4ea3b71ab659c7205b3daac7b51c12787e6b087a22e3828",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/droit-a-la-climatisation": {
+   "sha256_texte": "0d16db50a551042ca2520ca1401810b902b1927f7e5c881c0e3aa3ed43da4777",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/droit-au-brut": {
+   "sha256_texte": "18aeacfbd7c9d712f2af760a131cce53741639176d059b159aee6ca00258cd9c",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/droit-au-repit": {
+   "sha256_texte": "ebedec36142a26404913c242314d1d437fa3810a58f28b1ab8d00a92d5824148",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/durcir-regroupement-familial": {
+   "sha256_texte": "444bb43c1a4d077a5f83f682e7b288c6f12e5607c6be59030b8b661472c9fba3",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/encadrer-ventes-animaux-en-ligne": {
+   "sha256_texte": "315a3d45f9240d7f3e218a22ef11becc4b56c5631cb1846e7e16f1d96a508ea8",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/equilibre-securite-sociale": {
+   "sha256_texte": "8bf151308be571a97f335fd8f3e16cbc3fc0e0f3ea70654df65bd5534a2ceba2",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/extension-batiments-elevage": {
+   "sha256_texte": "63d4148dea5b6e0b41868cde18eac56ed917125d4ed5d74fcc153a4f3f8b77b3",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/facturation-tarif-camping": {
+   "sha256_texte": "eb5ba7572a89d3cc8470390fb2011d01041756d3952e653f1979af487013bf83",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/fichier-interdits-de-detention": {
+   "sha256_texte": "80354e423d4f2bc9e13d20ce81c1ac403db4ecc8bbbfd1d54d74348b40a2d18b",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/fiscalite-portage-foncier": {
+   "sha256_texte": "fe7409a15671afb7be834efcca2fb96b17d6e943f11c98978a131d63ad59f2d7",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/fonds-investissement-defense": {
+   "sha256_texte": "5c0c86233e6a8aa0cc3be3b45cfeee08f95c13a7526748356c22430ddc61f1a4",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/former-tous-enseignants-ia": {
+   "sha256_texte": "9da8fa7c4ff0e46a6a8b492f81415ff0bae031e025ed981df21eca29dbd8016e",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/fusion-nucleaire-europe": {
+   "sha256_texte": "8de61dc4626a63332bbc442ea5dff28385d860e60e0d5bfb7c01e87b58f9844e",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/groupes-de-niveau-college": {
+   "sha256_texte": "72ddcd65bda50f1385a9cf9d5c769c77fae97f995b8bc4d7a04a78ee89e2b5a4",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/ia-savoirs-fondamentaux": {
+   "sha256_texte": "79251274f6bc381f0890e711bb46cd2be4fbb1ba3a54b295179f21f5d8ab92ed",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/ia-traitement-judiciaire": {
+   "sha256_texte": "bbb548cf734bb7a84b36c79f239b53eea810acb34e8b34aa22547881e1d3b7a1",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/immigration-systeme-a-points": {
+   "sha256_texte": "20135fd7561a20c7a5d32ec5eaf237cf5173a2a2ed235d8471a07f2748c545ea",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/imprescriptibilite-crimes-sexuels-mineurs": {
+   "sha256_texte": "fd26a4f980bdef6ffc5d732bf35458ca56949edaf0878be132cb80e9e150efd2",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/interconnecter-fichiers": {
+   "sha256_texte": "f91007d567ec609668e68bb6ce19d3dafc6f2a31eed248a2b8ba9fef8434bbc5",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/interessement-petites-structures": {
+   "sha256_texte": "d20921b897b299a9c35bf83714d77196a12557384dd53da1a7ed8639d5153598",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/interessement-vers-epargne-retraite": {
+   "sha256_texte": "db61e09ab25843b568801b43e6f295a5aa8973c9627bd5cc00d6e4ebfc11c789",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/journee-referendaire-annuelle": {
+   "sha256_texte": "96f7d7827e384add7b2c13dd8a16191ba0bcadb45c89d865574f7a66ef353df2",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/livre-blanc-defense-2027": {
+   "sha256_texte": "03ba664fc01ef0ea005679affe872b4d0f730b816a64befdefa37b147fdee39d",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/loi-de-stabilite-fiscale": {
+   "sha256_texte": "d703cf487d42d60059807c706917b942ec4701eaa9aaf2a4ff4fe31a67519725",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/maire-elu-le-plus-puissant": {
+   "sha256_texte": "687f1f48c08331098c24eee82734a1b480eaa19e9130dc9676c9001202fb2502",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/methode-singapour": {
+   "sha256_texte": "4be9af7ce1a9f2d9d189d52db405494c565aa7ea8d3603b82fbc9454b815c662",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/ministere-de-l-eau": {
+   "sha256_texte": "366001a97e529915921f42f2c59a320be3f56c3b3b9f5b3b2030b1cb3221efd1",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/pac-moyens-renforces": {
+   "sha256_texte": "861c1e1a10bd4ae582cbd62a90bdbdd8daaca2df5d21408f5e0ed4b2d067ba45",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/parcours-separation-simplifie": {
+   "sha256_texte": "ebe7c82be15fb3422e4891030f4026ce463356af869c16fbcff4ada38b20b703",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/parquet-national-pedocriminalite": {
+   "sha256_texte": "0dab2e3b6421d64f4ac6f52dfd334a7a975971ba5532b6f41c177ee96cfe61ab",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/perpetuite-reelle-predateurs": {
+   "sha256_texte": "b41f4419617872c38fc60500b4004ae17301ac0a8fd9b56ba99fadcf54ca6b35",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/plafond-dix-huit-mois-procedures": {
+   "sha256_texte": "d5a21fad3f8a1dd5533efc3bd437bcae0857b907c3032dc4bcee0c4697344234",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/plan-eau-a-euro-constant": {
+   "sha256_texte": "c618e89673ea33fe156e48a3e9a1a0b0e9aeaa3a335c163ffad5cadb939b92fe",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/plan-france-2040": {
+   "sha256_texte": "268aa26c4e4d06cf90f6c46816051378072e1499699cc02155bac8f76c3adf6a",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/plan-messmer-2": {
+   "sha256_texte": "581a0ec9d7aad8cb7d2f9566e47109a800e6a1f6b0dbf44d243657abd9752030",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/plan-voltaire-esprit-critique": {
+   "sha256_texte": "c7d580b76a3f0af76a2ce32b13a65d7f7484189511d495a90c3acbd5fc7edb6a",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/politique-ia-europeenne-commune": {
+   "sha256_texte": "7585aa77630faa64cafdcdf939d6035d097f9b724bc4c3147b35ac688da52247",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/preference-europeenne-defense": {
+   "sha256_texte": "a68f3e6e79d8c9a9f791297882da1c939a6636f08533ce3d2b8cd12f809c0e92",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/premiers-actes-quarante-huit-heures": {
+   "sha256_texte": "52d792970ddf5b1c13cc604fae12e69c19a0b5bfef39addcb61d1cb243d9985b",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/prix-planchers-agricoles": {
+   "sha256_texte": "0bee341587c9a651860dd016d42364350a8d7c1398929ad6fae490df5ad66a49",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/procedures-mineurs-trois-mois": {
+   "sha256_texte": "4244d4d019b88027cb77d734ed97619451600b2934bd0f3fb6f6183315344c6d",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/puissance-de-calcul-europeenne": {
+   "sha256_texte": "74266c38ede6c0157bba71933d1728f254e384126e0849823d6ec19212f38155",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/quintupler-capacites-geoenergie": {
+   "sha256_texte": "e974b84ac8ae9b4f92d6a89f5c395af8f1b94889e13eef0b79192c0d834217d5",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/quotas-migratoires-revises": {
+   "sha256_texte": "bfe4640c9fb2901fe83f9527d6ef3d5b66a261cd2b992847845235d0031d515a",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/referendums-locaux-facilites": {
+   "sha256_texte": "18e0ac80d860332da1f0dc9a379a18e1908374d1c1bd3e86ccd9c79d2d720845",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/reforme-assurance-chomage-cinq-milliards": {
+   "sha256_texte": "195b0da265bf45fa4ce5b41483d70b1b28f802ffc05233517e2275ba56d1e70c",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/reforme-nominations-hautes-fonctions": {
+   "sha256_texte": "57025314a95498ba2f56df1345cfc722c3f2158dcf799a36d0f65bd26217b6a9",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/refuser-mercosur": {
+   "sha256_texte": "917d5d49e7141466a5f8291a016e163a7823f107d069ca172cdda9773cc87002",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/remplacement-enseignants-absents": {
+   "sha256_texte": "50623dc2e3ea08a4c2ce97bc2e5584dee588c823ce069eb9e4317eb91b535c0d",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/renseignement-ofmin": {
+   "sha256_texte": "0356ac3de71b6f93c75c255e2ec874ea56eb8137dc8daffd407ba150b37e5e19",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/reparer-cinq-cents-reseaux-eau": {
+   "sha256_texte": "beb1b95b7cd409aece7605d5faee21c21436fc405075350a1242765fa18a601f",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/reponse-subvention-quatre-vingt-dix-jours": {
+   "sha256_texte": "5ad6aa39d5b03c2950fae6558d8557cf1207c11fbd1afecf14a157bd82dee30b",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/retablir-redoublement": {
+   "sha256_texte": "be1bb325afd7948a1c193e03d337162552e6fd4abe5530583f51bd8103daf5ff",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/revalorisation-salaires-professeurs": {
+   "sha256_texte": "145f03ed22037d7a5ffddfe64d793916fac3696c8dd1adac3c74321c73b1ed6c",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/simplifier-forages-geothermiques": {
+   "sha256_texte": "265421ac6f3cb4b1de38400bb22b20a4f89a33d2115b885733ed9d58c8e224df",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/stabilite-prix-electricite": {
+   "sha256_texte": "99815e854a004e6fcc639b31f5127feb5d0d9f1dd1a1432776134b1b185597ba",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/statut-auto-tpe": {
+   "sha256_texte": "b8af282508a9e6fe33e33356a6e3244ace5e2a96e6ff94749a5d419e6cfcd401",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/test-pme-avant-chaque-loi": {
+   "sha256_texte": "ccf67a9a4551ae437ad83831ffa3c2a94774af7c299d5dc41a944c98336c6fb8",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/trois-mille-magistrats-greffiers": {
+   "sha256_texte": "5370582f829f5ff9436bfcf83cf834a11f4c7a9f39743282702f26dea3c2a534",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/tu-casses-tu-repares": {
+   "sha256_texte": "1d4683dbfd4333e72cddf38bf6f1295d96c0410f119a482e4030fff7795f7a62",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/tuteur-numerique-souverain": {
+   "sha256_texte": "778da4b7439535cf6b4598c32e8bae3b52cbd1d4c7353c575e749e76a3d4d6a4",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/un-seul-ministre-education": {
+   "sha256_texte": "16a1ae2d200c88f78bc68449172b70c4bc1ca5b8611f4a11135b886c589bdc39",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/mesures/vingt-millions-salaries-ia": {
+   "sha256_texte": "ef6d99f419938f14b6358c9ebe2f28f260eb8cc0cea00e4c758c3997b30c050d",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/thematiques/agriculture": {
+   "sha256_texte": "2af4d907d6a9cbe08ae42a65c51f1a07721e62ca7fde3c5003ce5236d65b11e1",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/thematiques/defense": {
+   "sha256_texte": "dbe059d34b09c53faed99e5de0149b65572b472e41ea4c4766790349b77e4f9d",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/thematiques/sante": {
+   "sha256_texte": "9efaaf3bd08e72a004a899b6b01f2435396369984108b6a91be9858fa99d2e5f",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/thematiques/simplification": {
+   "sha256_texte": "29cc33776342576250e4044e05608e8d87cfa5492e15acc08cc3fb8ec3ec11dd",
+   "vu": "2026-11-09"
+  },
+  "https://attalpresident.fr/programme/travail-salaires": {
+   "sha256_texte": "b3d86163ffae10d76ffd00da8d9ca72760f46173a164e46b9fbfd4789c7af10f",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-1/": {
+   "sha256_texte": "dbe63870ef82893c261742b2bd48192064fd1c79c0d41ac6409b016d47b7ee6b",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-10/": {
+   "sha256_texte": "ba365509f6a8ebf632d6938104f52f0035486b89d79f1aa11583bf0f0c247f06",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-11/": {
+   "sha256_texte": "478a7c7fee485e833200dca8669f6d599a0ece6d9021cd3fbfee72865e6237fd",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-2/": {
+   "sha256_texte": "e0cc40cba550d1fa286a4496c8dfe37be156f6afaf296651a41c2a7e66dabf7d",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-3/": {
+   "sha256_texte": "3bb790cbf658dcd67feff43f518435836e529c15605e3f8e0ae45152b80ccae9",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-4/": {
+   "sha256_texte": "6c9ee4f34d8825ca46a081bc5998fef189845ec371acd9822c2ba0b320dc194c",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-5/": {
+   "sha256_texte": "b5dc9a42cc12ba9fc4095a594a7f19484226593fd2cde483d83339bd730883ab",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-6/": {
+   "sha256_texte": "b8be25d1ce73eedfa398fe5aa41244220288aced7199b269cb8d2163de2a2903",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-7/": {
+   "sha256_texte": "f5d9c093f3209175f920ae19f1c607aece133e9c88040bb71ea774249a64bf3d",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-8/": {
+   "sha256_texte": "1fe87d0a2b5ac6bf5f976ff1922e2d50b4bc89172dd82641f6cf769500863b58",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/chapitre/partie-9/": {
+   "sha256_texte": "10a62ebf3de37949b607d4539902e2f567e4bbbb770c314fbb8bf5e5885729a2",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/projet-france/": {
+   "sha256_texte": "632e12bf394f39a37397df15ed2751daa86e1b633205775c6111b09f5260cbda",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/projet-france/les-5-refondations/": {
+   "sha256_texte": "feb8e85c1a1da74d5a66af0495759737cb9e627a46825536064a236c47b07114",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/projet-france/les-5-refondations/refondation-democratique-territoriale/": {
+   "sha256_texte": "e1b7581c821bacc9c343cbada163ddc099598952caeae8f3cfddf37f856932c8",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/projet-france/les-5-refondations/refondation-energie/": {
+   "sha256_texte": "2e2d34d9854266c56b010f04ae7ebfc490fbfe1010f2130b89daff3e7c9d762c",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/projet-france/les-5-refondations/refondation-sante/": {
+   "sha256_texte": "07b35c7510d40c12c0c34a2239aed84733cad4337409bd1032858a070b9723be",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/projet-france/les-5-refondations/refondation-securite/": {
+   "sha256_texte": "6f2e436fce6f13e70feca89710a0e6befd29ef89bdc9bb1cf06eed0d39d65af0",
+   "vu": "2026-11-09"
+  },
+  "https://becht2027.fr/projet-france/les-5-refondations/refondation-sociale/": {
+   "sha256_texte": "9fc7230548d1818aa7644b239b284b6d65d7edd8cb851eb0f95a104d6a025d56",
+   "vu": "2026-11-09"
+  },
+  "https://benoitmathieu2027.fr/programme": {
+   "sha256_texte": "eaa22bd89f979064ec029dcea671503a7bb0b66e5f37149a15c394b6c4f7ebba",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/decouvrir/": {
+   "sha256_texte": "a529ae6f2fad163c9bbb1b01f0535c315761f241dde5b26aa0bfb7bb2db80cf2",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/": {
+   "sha256_texte": "1bfc387e0a8e8d2b0de3816c391d9339adb9253ea244c9e007fb669546904004",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique": {
+   "sha256_texte": "061f2e64c0681bf91f19af18402b1a94c21328fc5681461f38717d3a4a0ff3b1",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre1": {
+   "sha256_texte": "6eb6512cc7e686fc80fa606ad2bc48c83e05784dbd4c84e3c06e5f45c0e04a85",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre2": {
+   "sha256_texte": "0180775c9326f93183162d10cd805385cce244d380b9383181f7409fafbbadee",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/fonder-la-6e-republique/chapitre3": {
+   "sha256_texte": "3e747fd7e5a5386a00915b59f9e431ae8a0acb76c5d6e2e616139f3de240a007",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/introduction": {
+   "sha256_texte": "d3d09f86c902bae9020e5e3462f77c628cd14750c3e02a1ce454942b19abda33",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite": {
+   "sha256_texte": "0d296d6ef4c0eda74e7bc68e74fdde56bbdd1ba629ae26c2fba56d42fcfcdd69",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre1": {
+   "sha256_texte": "80931a7155c2fa75c157476b8b779fce9d15c2410781c0f1353828f184764810",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre2": {
+   "sha256_texte": "3a803aed2c4794dc5ab2055258dde4e8ba0c3aef7f6741974c769ddef303e2fa",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre3": {
+   "sha256_texte": "109218cd37732074650a0b29191a481f638aec7463781073fa1c306509960908",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre4": {
+   "sha256_texte": "ebd2195d9c4ad0d03af8f25ff21766fa7ce44b38efd5940614c8309bc51dce27",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre5": {
+   "sha256_texte": "a038a17303da31f14f1062f8a8f711aad46bb3a6d2ba56ac92cf9e46d23985de",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre6": {
+   "sha256_texte": "7ed0396ec8d768952adbdea2a6721bc00bafc54b5de8590dd2505c39d3f8d3c5",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/le-gout-du-futur-aux-nouvelles-frontieres-de-l-humanite/chapitre7": {
+   "sha256_texte": "18a42c37ec73d1c9000dea4405a06ca3e4b3328210027f00697491d2be470908",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale": {
+   "sha256_texte": "37ee25e70460ecf33388e12c055db2320912449eaefecad1021e7b8dbfb2438e",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre1": {
+   "sha256_texte": "78647bd8de59f9115bec0940a40aa4bfd003d4373c77430897f5761edd16b0f3",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre2": {
+   "sha256_texte": "2c3c264284e27756383fa3bf767f73fb680793aedaf8f3dc773dc5536ff6e4b8",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre3": {
+   "sha256_texte": "0771001ae70dd19667c9f8523e6fb0a314a88dd6fa0bf65c30f855bb0f68c6a5",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/mettre-en-securite-sociale/chapitre4": {
+   "sha256_texte": "5af3d79c9c7b6902b99813a7beb6d4a0cc01ffbd0638cc729b6c6b2d39e4ac1a",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale": {
+   "sha256_texte": "efd9e7fee20714ba02aecb4ee171bb07573e6d33c1dbdba43a5061968b8a94aa",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre1": {
+   "sha256_texte": "8f7cedf75a8d56002d14d7605bad886feaee7881f41b8b5d6f61b5b4b03b8416",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre2": {
+   "sha256_texte": "d68341b30d27c690524ee0c7bcbcbf98caf51e6508f2c479df3a8c6263a7320f",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/pour-une-bifurcation-ecologique-et-sociale/chapitre3": {
+   "sha256_texte": "6e93b01d326948832c6cd5455ac53892c3c136b598a5ebf5e0442065c32fdf46",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/un-monde-ordonne": {
+   "sha256_texte": "1ddbd4e89c5283d5111139cffcaace8426c50ca2ff2983392f500e8adab63959",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre1": {
+   "sha256_texte": "0a2acc657a2f339659acb1c34282578f05a45ed9f875305ea8fd9827e385baca",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre2": {
+   "sha256_texte": "d004fe93983bf7ecff53b6a9aa91a2d2a91f830d1f877f0ca2c5f03da1534804",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/un-monde-ordonne/chapitre3": {
+   "sha256_texte": "ede4eb42bab0909e4e2e1623ddaf88ef9871474d0c7d8465cf0c170be24f6d42",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins": {
+   "sha256_texte": "b93a285f726e7dde0ac75816f3bb73ea517ca31a26267e1c98e853f4efbd6bd9",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre1": {
+   "sha256_texte": "0342f90e564336299d4426cf0425dacaa88336eab4780cd9e542e46f8d2b8f29",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre2": {
+   "sha256_texte": "e6554729f6d5224ed23757707bd1b2d178e1c7b1b5f4a055ac2b707ede22c3b1",
+   "vu": "2026-11-09"
+  },
+  "https://melenchon2027.fr/programme/livre/une-economie-au-service-des-besoins/chapitre3": {
+   "sha256_texte": "02d524ab69b3b721f8f8a6ad2a861dd69a7e5cfcb8a67e24e376a25454722a4c",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/education-une-ecole-de-tous-les-savoirs/": {
+   "sha256_texte": "d68f62b7016fc8b70a9d6967e2c2049848eaf08e4bf25d0c8ad6f0aa59f2d577",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/face-a-la-crise-du-logement/": {
+   "sha256_texte": "4107a9383da69ced78de202e0a2a986f81d66509652efb2253cf8827c77b6f38",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/notre-programme/": {
+   "sha256_texte": "d1c342dfde0f287308b785458f23cbab5a1dd50fb4e32809512ec6d77c14a08f",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/plan-data-centers/": {
+   "sha256_texte": "e48dd42b8380ec025deaa5cf4577e753c3f36207c7ef146fd0d5f1abe1fb51ed",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/plan-de-redressement/": {
+   "sha256_texte": "5f55bf836234dc9c13709b6b4836af8344e6c75b8602ee8f7505f0ed13212fef",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/plan-urgence-climat/": {
+   "sha256_texte": "764edb03742b324d976238ee3bd8655fe6d730e5e9e60a900ed432522ff1466d",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/pour-proteger-notre-industrie-relocaliser-100-produits-strategiques/": {
+   "sha256_texte": "595fff228fc2e023a2a2551be25db4cbaf7f9010e450a4591d6fe4e592addad3",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/pour-une-exception-agriculturelle-francaise/": {
+   "sha256_texte": "dfc294cd06f940be79c1e1861892074c7325673aba40c38193d76648ef809022",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/separation-argent-etat/": {
+   "sha256_texte": "9fa61037914d6611c5bf633944e72c5a73b95ba61da6154ac00348cbcb2ecaab",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/statut-travailleurs-essentiels/": {
+   "sha256_texte": "4ef92937d46542308cedc64fb1e7dd075f9da45facaecda7e84cfe6df019db93",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/temps-loisirs/": {
+   "sha256_texte": "d8fc8a895098ba13a3bad3d45eebcc261e35d31012d9d5dc707ec8784f53c1e2",
+   "vu": "2026-11-09"
+  },
+  "https://nouspresident.fr/travaillisme-ecologique/": {
+   "sha256_texte": "227737ea093808143c5da8e71b4f62febff399fda8ed1a63fe9f1c2080e50041",
+   "vu": "2026-11-09"
+  },
+  "https://trajectoire2027.fr/programme": {
+   "sha256_texte": "1f19207fad71e086846520554534b2acec02214594502cd6436124989a355558",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/notre-projet/": {
+   "sha256_texte": "4e1cc59ca3fa7dfdcefbc180fc943a90628727c2c73765eeebb09939c637d005",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/affaires-etrangeres/": {
+   "sha256_texte": "752259fbd0541cbbefa3380050c5760632a72736af0b998bed8435e597e7e61b",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/affaires-europeennes/": {
+   "sha256_texte": "d041a8910af0481e6423e6a3a9c5dd95c5289b320e5c122197c61c1cc4d1e360",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/agriculture/": {
+   "sha256_texte": "d6e2c6c05a8ca0843838b2ba9e645c40016d35c35c3c162f2a46b0c9994c15fc",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/bien-etre-animal/": {
+   "sha256_texte": "cf8233788db803872f6bb5f0b63e3ca67f96bbc7d5f2f896fca342ad75cf5115",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/combat-pour-les-femmes/": {
+   "sha256_texte": "9555145680c24349fea044f2ea0cb31d79696f0e60bde69cbdbeecf19e8b3503",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/culture-patrimoine/": {
+   "sha256_texte": "27504adcf385d2ae49c8323c290fba4657d51b550407a75deb7c9ded30eb5680",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/defense/": {
+   "sha256_texte": "00ce6797817baa417680cec049fd01778b69993298a0fb734e660880c44bb4e9",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/dependance-fin-de-vie/": {
+   "sha256_texte": "067882cec3919f224ce888ea44cb7652a9620aee801d0793ff8bfcfa434105f8",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/economie-travail/": {
+   "sha256_texte": "dddd77281b0ac99ece7431b7e9067716f47eef535b3b4c9de41357b21f013703",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/enseignement-superieur/": {
+   "sha256_texte": "76960876b2a953f4cf564b1c7b73f7b6c74d2acad722b3a8ab95f0c549e28b79",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/environnement-energie/": {
+   "sha256_texte": "064e570c4bb722237c250559d9edb9c65be2b5fdb934c5531c11417b456ca9a7",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/equilibre-territoire-monde-rural/": {
+   "sha256_texte": "13eef1f82ca343d66058cc1a9f0a87fe693ddf91ca800435d5e425b6b3895496",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/famille/": {
+   "sha256_texte": "41ffd5e5343a30173e420d4562e8182a06fc76ae5e302ed7a184a755ba10ac73",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/francais-de-l-etranger/": {
+   "sha256_texte": "4e09c7e165cc77b21ee28642cfbbd8d61ebb9aab6bb27aca1fb4c411dbd407bf",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/grand-partenariat-entre-la-france-et-l-afrique/": {
+   "sha256_texte": "7ced16bb977ba6ac7a60f5308235676d078b9faf3b8611c93f7f023a0abbecce",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/handicap/": {
+   "sha256_texte": "9697a7a0529fca44d4b96fa9d804219671ea948a6844a71917a04b9b1a3626e9",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/immigration-et-assimilation/": {
+   "sha256_texte": "95621adb1a69b2bbe1eda2756fca1d2533487dda4ae7e8051e540e75cf0b45e7",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/instruction-publique/": {
+   "sha256_texte": "d79f5c6f9985f3d2df38a6cb67b10bee2211c6a93262c83cb74c1e6f04e2cd92",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/intelligence-artificielle/": {
+   "sha256_texte": "0a8b2a103bf5797afd030a8eae4ade6e3817d3fa3923c811d552114db1634336",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/justice/": {
+   "sha256_texte": "a0fe7a9e4b275387abbdf5c6d6f65d83cf67211028e0636fd570e1768d54fbff",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/logement/": {
+   "sha256_texte": "5611bd113137311a6bc6a54328bd05458beb53fcb791f37cb81dbc50a5ad570a",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/outre-mer/": {
+   "sha256_texte": "64459dd450aedbdef55d2bd99d94130684282b1c36227c50af6367702eed2181",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/politique-mer/": {
+   "sha256_texte": "93ecb06fb98546905e91e6365a19afeba67cae9f631d7dc460a5a774c1722c2e",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/produire-en-france/": {
+   "sha256_texte": "f7b5b0bfcba1b11c853f5d9d74b2121946a453af9372b6f21e9c77cc5aebdeef",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/refonder-et-moraliser-notre-democratie/": {
+   "sha256_texte": "7d96e55c5c67123a48a0851b23243ce182959f2ce052e88c6fdb8b2e6e30f469",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/retraites/": {
+   "sha256_texte": "d7abfd12b19cd857833c78a05b94d6334c6dae21ae526fd8e76691f03d857943",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/sante/": {
+   "sha256_texte": "ecb7e889f8255afe7a62fd769b69ba25efeff8aa330cc86dde92b45e97c532a7",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/sciences-souverainete-industrielle/": {
+   "sha256_texte": "f3bb3acbd458ab0a390b9263be67a28178b6177be0a65606130b1aa692bf9b52",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/securite/": {
+   "sha256_texte": "284551d3782ce4e3cb66eb74d7b2bb3c61825b048dfb7219545423944d1e59ce",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/sport-associations/": {
+   "sha256_texte": "0614887f32ce39276800fab4825f6514e66b31028e480ce2f41cc6bc483c0bbc",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/tourisme/": {
+   "sha256_texte": "1bb6774b305dfe46207bb5c2bad714eacb45d521459dc115c0aa53cfe429554f",
+   "vu": "2026-11-09"
+  },
+  "https://www.debout-la-france.fr/projet/transport-automobilistes/": {
+   "sha256_texte": "725872f75430fa2cfb055e51b30bf8184a9bd0c28d92e8ed1fcd9c80a0c80777",
+   "vu": "2026-11-09"
+  },
+  "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-attentive-a-ses-enfants": {
+   "sha256_texte": "15965ef7974cb7092e6421f11ae300341e63e88bb12d142becfe8e91430b46f8",
+   "vu": "2026-11-09"
+  },
+  "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-conquerante": {
+   "sha256_texte": "1177514636078170f9a2bf43902fb5d196ad1bf688611fd7bd7722107e1a835a",
+   "vu": "2026-11-09"
+  },
+  "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-prospere": {
+   "sha256_texte": "60b963f72aa207fea41e1d9ddcbc6ec239e1cb640cc10a242619a2cb855421f3",
+   "vu": "2026-11-09"
+  },
+  "https://www.edouardphilippe.fr/priorites/pour-une-france-plus-sure": {
+   "sha256_texte": "6fe210ef27b26d384868bf463349f5e24435dba2cbf05d6bb088fb821192d053",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/": {
+   "sha256_texte": "e87eef48cedb63c583086fe4fc59ba2632a03cf01a4827c903cf6b0dd7a67fea",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/agriculture/": {
+   "sha256_texte": "785709e3c31ba114b6be8fdd1f549dd2f44659cf4e8b703e7a3a68dec7f13f4f",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/education/": {
+   "sha256_texte": "3f1065984f2bb84443b1ac499032764a1dfcecdf2e487b2219dc3ea75437b32d",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/etre-maitre-de-notre-destin/": {
+   "sha256_texte": "0d952b818ce457839d5182029f872472123c1b57961daf4879a268c24fb85cd4",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/generer-un-renouveau-civique/": {
+   "sha256_texte": "faf545f9c95ab65ed407b7300b41a7833fc8c69a50941ddca169e6c00595ccc7",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/immigration/": {
+   "sha256_texte": "893b3c64ba84e70cf5322eb62b7784c414519d803a042f78ef725bc8b9062cb5",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/reussir-une-nouvelle-ambition-francaise/": {
+   "sha256_texte": "8f44c3bd788cd84eb734d056fd7467077cbfcfc9675cb793aecb539d2a19ab74",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/sante/": {
+   "sha256_texte": "f82b6f96f68b2d0b75d3f9a75424620cc1936ba00b593b32c7a035cdd7bd6089",
+   "vu": "2026-11-09"
+  },
+  "https://www.unenouvelleenergie.fr/notre-programme/securite/": {
+   "sha256_texte": "c3a8cec8a6a02ae5db818a4120882ca6074995dab8b63a6a3e7638b9e6a76093",
+   "vu": "2026-11-09"
+  }
+ },
+ "sans_programme": {
+  "Bruno Retailleau": [
+   "https://republicains.fr/nos-propositions/"
+  ],
+  "Delphine Batho": [
+   "https://www.generationecologie.fr/2021/02/10/projet-de-loi-climat-vous-aviez-dit-sans-filtre/",
+   "https://www.generationecologie.fr/a-propos/generation-ecologie/notre-projet/",
+   "https://www.generationecologie.fr/notre-projet",
+   "https://www.generationecologie.fr/projet"
+  ],
+  "François Asselineau": [
+   "https://upr.fr/notre-programme",
+   "https://upr.fr/notre-programme/programme-2012",
+   "https://upr.fr/notre-programme/programme-2017",
+   "https://upr.fr/notre-programme/programme-2022"
+  ],
+  "Jean Lassalle": [
+   "https://resistons-france.fr/",
+   "https://resistons-france.fr/wp-content/uploads/2022/03/Programme-A4-V5-25_02_22.pdf",
+   "https://www.assemblee-nationale.fr/dyn/15/textes/l15b3896_proposition-loi",
+   "https://www.assemblee-nationale.fr/dyn/15/textes/l15b4516_proposition-loi"
+  ],
+  "Marine Le Pen": [],
+  "Mira Markovic": [
+   "https://parti-animaliste.fr/programme",
+   "https://parti-animaliste.fr/wp-content/uploads/2022/03/programme-national-2022.pdf",
+   "https://parti-animaliste.fr/wp-content/uploads/2024/05/programme-europeennes-2024.pdf"
+  ],
+  "Nathalie Arthaud": [
+   "https://www.nathalie-arthaud.info/medias/document/fichiers/2026/06/brochure-ete-2026.pdf"
+  ],
+  "Raphaël Glucksmann": [],
+  "Selma Labib": [],
+  "Teddy Riner": [],
+  "Éric Zemmour": [
+   "https://leprogrammepourlafrance.fr/",
+   "https://www.parti-reconquete.fr/programme"
+  ]
+ }
+}
