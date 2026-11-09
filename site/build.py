@@ -534,14 +534,13 @@ def page_candidat(c: dict, election) -> str:
     nb_versions = len(c["docs"])
     mouv = c["mouvement"] or "Mouvement non indiqué sur le site"
 
-    # Bouton original
+    # Bouton page source
+    src = doc.get("page_source") or doc.get("source_url") or c["site_officiel"]
+    btn_original = f'<a class="btn sobre" href="{e(src)}" rel="noopener">Voir la page source</a>'
     if est_pdf and fichier_original:
-        btn_original = f'<a class="btn sobre" href="/candidats/{e(slug)}/original/{e(nom_original)}" download>Télécharger le PDF original</a>'
-    elif fichier_original:
-        btn_original = f'<a class="btn sobre" href="/candidats/{e(slug)}/original/{e(nom_original)}" download>Télécharger le fichier original</a>'
+        phrase_format = f'Programme publié par le candidat sous forme de PDF : <a href="#onglet-original">original téléchargeable ci-dessous</a>.'
     else:
-        src = doc.get("page_source") or doc["source_url"]
-        btn_original = f'<a class="btn sobre" href="{e(src)}" rel="noopener">Voir la page source (site du candidat)</a>'
+        phrase_format = 'Programme publié par le candidat sous forme de pages web : <a href="#onglet-original">original consultable dans l\'onglet Voir l\'original</a>.'
 
     # Fiche
     source_url = doc.get("source_url") or c["site_officiel"]
@@ -551,17 +550,17 @@ def page_candidat(c: dict, election) -> str:
     empreintes.append(f'<span class="mono">texte sha256 {e(doc["sha256_texte"])}</span>')
     if pages_sources and not doc.get("sha256_original"):
         empreintes.append(f'<a href="#onglet-original">{len(pages_sources)} page{"s" if len(pages_sources) > 1 else ""} web, une empreinte par page</a>')
-    fiche = f"""<dl class="fiche">
-<dt>Source</dt><dd><a href="{e(source_url)}" rel="noopener">{e(hote(source_url))}</a></dd>
-<dt>Capturé le</dt><dd>{date_fr(doc["capture_date"], heure=True)}</dd>
-<dt>Empreinte</dt><dd>{"<br>".join(empreintes)}<br><a href="/verifier/">Comment vérifier</a></dd>
-<dt>Versions</dt><dd><a href="#onglet-versions">{nb_versions} version{"s" if nb_versions > 1 else ""}</a>{", voir les modifications" if nb_versions > 1 else ""}</dd>
-</dl>"""
+    fiche = f"""<p class="meta"><span><b>Source</b> <a href="{e(source_url)}" rel="noopener">{e(hote(source_url))}</a></span>
+<span><b>Capturé le</b> {date_fr(doc["capture_date"], heure=True)}</span>
+<span><b>Versions</b> <a href="#onglet-versions">{nb_versions} version{"s" if nb_versions > 1 else ""}</a></span></p>
+<details class="empreinte"><summary>Empreinte et vérification</summary>
+<p>{"<br>".join(empreintes)}<br><a href="/verifier/">Comment vérifier</a></p></details>"""
 
     # Onglet original
     if est_pdf and fichier_original:
         url_pdf = f"/candidats/{slug}/original/{nom_original}"
         onglet_original = (f'<p class="kicker">Document original · PDF tel que téléchargé depuis le site du candidat</p>'
+                           f'<p><a class="btn sobre" href="{e(url_pdf)}" download>Télécharger le PDF original</a></p>'
                            f'<div class="original"><object data="{e(url_pdf)}" type="application/pdf" aria-label="PDF original du programme">'
                            f'<p>Votre navigateur n\'affiche pas les PDF dans la page. <a href="{e(url_pdf)}">Télécharger le PDF original</a>.</p>'
                            f'</object></div>')
@@ -596,18 +595,23 @@ def page_candidat(c: dict, election) -> str:
                     if est_pdf else "Texte intégral · l'onglet « Voir l'original » liste les pages du site du candidat et leur empreinte")
 
     corps = f"""
-<aside>
-<a class="retour" href="/">← {e(election["nom"].replace("Élection présidentielle", "Présidentielle"))}</a>
-<div>
+<aside class="entete-candidat">
+<a class="fil" href="/">← {e(election["nom"].replace("Élection présidentielle", "Présidentielle"))}</a>
+<div class="ligne-titre">
+<div class="identite">
 <h1>{e(c["nom"])}</h1>
 <p class="mouv">{e(mouv)}</p>
 </div>
-{fiche}
 <div class="actions">
+<div class="boutons">
 {btn_original}
 <a class="btn sobre" aria-disabled="true" role="link" tabindex="-1">Profession de foi officielle</a>
+</div>
 <p class="mention">Profession de foi : pas encore disponible (publiée par la CNCCEP après la liste officielle).</p>
 </div>
+</div>
+{fiche}
+<p class="format">{phrase_format}</p>
 <p class="legende">Texte reproduit sans aucune modification. Les titres et l'ordre sont ceux du document original.</p>
 </aside>
 <div class="contenu">
