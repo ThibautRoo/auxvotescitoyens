@@ -1,0 +1,159 @@
+{
+  "slug": "becht-olivier",
+  "nom": "Olivier Becht",
+  "mouvement": null,
+  "site_officiel": "https://becht2027.fr",
+  "statut": "declare",
+  "declaration_date": "2026-09-24",
+  "declaration_source": "https://www.sudradio.fr/politique/qui-est-olivier-becht-cet-ancien-ministre-qui-se-lance-dans-la-course-a-lelysee",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "programme",
+      "titre": "Le Projet France — les 5 refondations",
+      "source_url": "https://becht2027.fr/projet-france/",
+      "pages_sources": [
+        {
+          "url": "https://becht2027.fr/projet-france/",
+          "titre": "Le Projet France – Olivier BECHT Président 2027",
+          "html_sha256": "d913edafd216f88d9fd136808feea57eb1d6e2658c66b67b8c4fa749748fd505",
+          "capture_date": "2026-11-09T20:32:22Z"
+        },
+        {
+          "url": "https://becht2027.fr/projet-france/les-5-refondations/",
+          "titre": "Les 5 refondations – Olivier BECHT Président 2027",
+          "html_sha256": "d86abf71487f8fdc3c5388231cebb5d2d51a8075fbe73ba78d0e17a19b5e5aa4",
+          "capture_date": "2026-11-09T20:32:22Z"
+        },
+        {
+          "url": "https://becht2027.fr/projet-france/les-5-refondations/refondation-energie/",
+          "titre": "L’énergie – Olivier BECHT Président 2027",
+          "html_sha256": "80465f8c032137fd02b1362851e6163da4d3403c9c86b71eced397f145e88aaf",
+          "capture_date": "2026-11-09T20:32:22Z"
+        },
+        {
+          "url": "https://becht2027.fr/projet-france/les-5-refondations/refondation-sociale/",
+          "titre": "La refondation sociale – Olivier BECHT Président 2027",
+          "html_sha256": "a0884fbb1ccb27bbf1190a29773763047251c8f7e094a6757e893c8afb8675f7",
+          "capture_date": "2026-11-09T20:32:23Z"
+        },
+        {
+          "url": "https://becht2027.fr/projet-france/les-5-refondations/refondation-sante/",
+          "titre": "La santé – Olivier BECHT Président 2027",
+          "html_sha256": "8fb2e1865ce5371c2d0bb0a5f693a8671b5ef5d6684e0a9b338667ce9857ffd4",
+          "capture_date": "2026-11-09T20:32:23Z"
+        },
+        {
+          "url": "https://becht2027.fr/projet-france/les-5-refondations/refondation-securite/",
+          "titre": "La sécurité – Olivier BECHT Président 2027",
+          "html_sha256": "c8e2a1c4653359fb28dc3799dca281b6fc82ed51ffebe48ddfd73dcaab325581",
+          "capture_date": "2026-11-09T20:32:23Z"
+        },
+        {
+          "url": "https://becht2027.fr/projet-france/les-5-refondations/refondation-democratique-territoriale/",
+          "titre": "Le pacte démocratique et territorial – Olivier BECHT Président 2027",
+          "html_sha256": "3aaa636515a82f60606059f8c08f49db1a28c3b8488bb45f4c5b3f2e5d2398da",
+          "capture_date": "2026-11-09T20:32:23Z"
+        }
+      ],
+      "capture_date": "2026-11-09T20:32:23Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : empreinte SHA-256 du HTML de chaque page conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "084ba2be81d7cccb5d12be1d44b7f2d1d861df14cc6a9931494f8f782df726f1",
+      "pages": 7,
+      "mots": 2733,
+      "extraction": "curl + extraction de <main>",
+      "extraction_note": "pages web : texte relevé par requête HTTP directe, contenu de l'élément <main> converti en texte (balises retirées, entités décodées, lignes vides supprimées) ; conservés tels quels : fil d'Ariane, libellés « En savoir plus », liens de navigation « Chapitre précédent / suivant », « Retour au menu » ; empreinte SHA-256 du HTML de chaque page conservée. Pages archivées : page « Le Projet France », hub « Les 5 refondations » et les 5 pages de refondation (énergie, sociale, santé, sécurité, pacte démocratique et territorial). Le livre « Le Projet France », publié en 11 parties sur le même site, est archivé à part (livre-v1).",
+      "remplace": null
+    },
+    {
+      "id": "livre-v1",
+      "type": "complement",
+      "titre": "Le Projet France (livre en ligne, parties 1 à 11)",
+      "source_url": "https://becht2027.fr/projet-france/le-livre/",
+      "pages_sources": [
+        {
+          "url": "https://becht2027.fr/chapitre/partie-1/",
+          "titre": "Reprendre la route + La France est ce qui nous lie – Olivier BECHT Président 2027",
+          "html_sha256": "0798a62afaa7e9d6bebf88eb806bba802fdb9bc9472d5556f80ad28b1a8ec5d7",
+          "capture_date": "2026-11-09T20:32:24Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-2/",
+          "titre": "Regarde la France tomber + Refonder ou périr – Olivier BECHT Président 2027",
+          "html_sha256": "9f17137d5fb86907435085d17215a2f73c53f7f7767c3e846148a1777695cd73",
+          "capture_date": "2026-11-09T20:32:24Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-3/",
+          "titre": "De l’espoir à l’action + Fixer le cap et redonner du sens + Le Projet France – Olivier BECHT Président 2027",
+          "html_sha256": "823d128869376c27cba05456005e8885f888c02d03f5f4d182ec57722e5acaac",
+          "capture_date": "2026-11-09T20:32:24Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-4/",
+          "titre": "Un nouveau modèle économique – Olivier BECHT Président 2027",
+          "html_sha256": "5a553312be883927b437bbc7c216cfcb0eb4c39ec980f387f03dd5ab42379d2f",
+          "capture_date": "2026-11-09T20:32:25Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-5/",
+          "titre": "Un nouveau modèle social – Olivier BECHT Président 2027",
+          "html_sha256": "47e46002d7f331d4615987134252b659ed697540d58b59b3975cc3b05279e101",
+          "capture_date": "2026-11-09T20:32:25Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-6/",
+          "titre": "Un nouveau modèle de santé – Olivier BECHT Président 2027",
+          "html_sha256": "c941634c0dc39f1ddb612969c0daacfbdcad39fdd9ddeff9ed4408809c70bee5",
+          "capture_date": "2026-11-09T20:32:25Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-7/",
+          "titre": "Un nouveau modèle de sécurité – Olivier BECHT Président 2027",
+          "html_sha256": "5161d8d5dea75433edd20ac3481b3150b2dcefdf6b76c1207e3cb922d03282e7",
+          "capture_date": "2026-11-09T20:32:25Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-8/",
+          "titre": "Un nouveau modèle d’organisation de la République et des Libertés – Olivier BECHT Président 2027",
+          "html_sha256": "a4219bbfd85295706723d2ab4340b07445085197c14d4dbbaba97b09ccba4cb2",
+          "capture_date": "2026-11-09T20:32:26Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-9/",
+          "titre": "Un nouveau modèle de rayonnement – Olivier BECHT Président 2027",
+          "html_sha256": "fb7ac10dc82a19ea94127ea56119f05faa14075e2f2d3aa25140814749004698",
+          "capture_date": "2026-11-09T20:32:26Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-10/",
+          "titre": "Un nouveau modèle pour redresser nos comptes publics – Olivier BECHT Président 2027",
+          "html_sha256": "4850f89924e0ee71d66b6a89e4a1eba989a7d0b24f0119a4ff72dce7daa109f8",
+          "capture_date": "2026-11-09T20:32:26Z"
+        },
+        {
+          "url": "https://becht2027.fr/chapitre/partie-11/",
+          "titre": "Nous le ferons par amour – Olivier BECHT Président 2027",
+          "html_sha256": "41ea93b84b30a1e908d6111120769dbe4b5b3a8ef00afa9efc2f7deb1f679b68",
+          "capture_date": "2026-11-09T20:32:26Z"
+        }
+      ],
+      "capture_date": "2026-11-09T20:32:26Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "pages web : empreinte SHA-256 du HTML de chaque page conservée ; les versions PDF de chaque partie, proposées par le site, ne sont pas archivées ici",
+      "fichier_texte": "texte/livre-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "4b2990965042d6f430441c7097b04b301690a8e028d1286462e6560f0b41073b",
+      "pages": 11,
+      "mots": 29421,
+      "extraction": "curl + extraction de <main>",
+      "extraction_note": "pages web : texte relevé par requête HTTP directe, contenu de l'élément <main> converti en texte (balises retirées, entités décodées, lignes vides supprimées) ; conservés tels quels : fil d'Ariane, libellés « En savoir plus », liens de navigation « Chapitre précédent / suivant », « Retour au menu » ; empreinte SHA-256 du HTML de chaque page conservée. Le site annonce « de nouveaux contenus deux fois par semaine » ; les 11 parties étaient toutes marquées « Disponible » à la date de capture.",
+      "remplace": null
+    }
+  ]
+}

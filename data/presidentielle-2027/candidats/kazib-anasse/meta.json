@@ -1,0 +1,37 @@
+{
+  "slug": "kazib-anasse",
+  "nom": "Anasse Kazib",
+  "mouvement": "Révolution permanente",
+  "site_officiel": "https://anasse2027.fr",
+  "statut": "declare",
+  "declaration_date": "2026-06-01",
+  "declaration_source": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-le-cheminot-anasse-kazib-annonce-sa-candidature_8040020.html",
+  "documents": [
+    {
+      "id": "programme-v1",
+      "type": "propositions",
+      "titre": "Notre programme — « Nos propositions » (6 axes, premières mesures)",
+      "source_url": "https://anasse2027.fr/programme",
+      "pages_sources": [
+        {
+          "url": "https://anasse2027.fr/programme",
+          "titre": "Programme — Anasse Kazib 2027",
+          "html_sha256": "64f2c7fac9def157ed394c366770e7195393e1450fe02c4fd2efabf512e8ad86",
+          "capture_date": "2026-11-09T20:32:27Z"
+        }
+      ],
+      "capture_date": "2026-11-09T20:32:27Z",
+      "format": "web",
+      "fichier_original": null,
+      "original_note": "page web : empreinte SHA-256 du HTML conservée",
+      "fichier_texte": "texte/programme-v1.txt",
+      "sha256_original": null,
+      "sha256_texte": "901719d058be1d4b780311dd67feef31f9c644ba85165038a833f440c748107a",
+      "pages": 1,
+      "mots": 738,
+      "extraction": "curl + extraction du texte de la page (balises retirées, entités décodées, lignes vides supprimées)",
+      "extraction_note": "Le site indique que « le programme 2027 est en cours d'élaboration » et affiche « Programme 2027 : À venir » ; la section « Nos propositions » (« Voici les premières mesures », 6 axes) est le seul texte de propositions publié, retenu à ce titre (charte, 4.2). Texte retenu : de l'en-tête de page jusqu'à « Programme 2027 / À venir » ; exclus : présentation du candidat et appels à parrainer / rejoindre les comités. Non archivés : le dépliant de 4 pages (https://anasse2027.fr/programme/depliant-anasse-2027.pdf) et le programme 2022 liés depuis la page.",
+      "remplace": null
+    }
+  ]
+}
