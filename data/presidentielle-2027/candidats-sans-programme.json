@@ -1,6 +1,6 @@
 {
   "_regle": "Candidats ayant annoncé publiquement leur candidature mais n'ayant pas (encore) publié sur leur site officiel un document écrit présenté comme leur programme, projet, manifeste ou propositions pour 2027 (charte, section 4.2). Ils entrent dans la liste principale le jour où ce document est publié. Le constat est factuel : il décrit ce qui est en ligne, rien d'autre. Vérification hebdomadaire.",
-  "derniere_verification": "2026-11-08",
+  "derniere_verification": "2026-11-09",
   "candidats": [
     { "nom": "Nathalie Arthaud", "mouvement": "Lutte ouvrière", "site_officiel": "https://www.nathalie-arthaud.info", "constat": "Le site de campagne ne comporte pas de page programme. Un dépliant de campagne de 4 pages et des discours sont en ligne sur lutte-ouvriere.org ; ils ne sont pas présentés comme un programme.", "verifie_le": "2026-11-07" },
     { "nom": "François Asselineau", "mouvement": "Union populaire républicaine", "site_officiel": "https://upr.fr", "constat": "La page « Notre programme » indique que le programme 2027 est en cours d'élaboration et sera publié prochainement. Seuls les programmes 2012, 2017 et 2022 sont en ligne.", "verifie_le": "2026-11-07" },
@@ -13,6 +13,7 @@
     { "nom": "Natacha Polony", "mouvement": "Nous sommes la France", "site_officiel": "https://noussommeslafrance.fr", "constat": "Site inaccessible lors de nos vérifications ; aucun programme écrit trouvé. À revérifier.", "verifie_le": "2026-11-07" },
     { "nom": "Bruno Retailleau", "mouvement": "Les Républicains", "site_officiel": "https://republicains.fr", "constat": "Pas de site de campagne identifié. Le site du parti publie des livrets thématiques (« Nos propositions ») qui ne mentionnent ni la candidature ni la présidentielle 2027.", "verifie_le": "2026-11-07" },
     { "nom": "Fabien Roussel", "mouvement": "Parti communiste français", "site_officiel": "https://fabienroussel.fr", "constat": "Sites inaccessibles lors de nos vérifications ; aucun programme 2027 cité. Le programme en ligne « La France des jours heureux » est celui de 2022. À revérifier.", "verifie_le": "2026-11-07" },
+    { "nom": "Teddy Riner", "mouvement": "La France qu'on veut (sans parti)", "site_officiel": null, "declaration_date": "2026-11-09", "constat": "Aucun programme publié sur le site officiel à la date de vérification, seulement une déclaration de candidature.", "verifie_le": "2026-11-09" },
     { "nom": "Éric Zemmour", "mouvement": "Reconquête", "site_officiel": "https://www.parti-reconquete.fr", "constat": "Pas de site de campagne 2027 identifié. Une plateforme participative de propositions et une page de mesures budgétaires existent, sans document présenté comme programme du candidat.", "verifie_le": "2026-11-07" }
   ]
 }
